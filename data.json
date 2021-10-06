@@ -10,7 +10,7 @@
             "timeLeft": "22 hours",
             "isHot": true,
             "sellerId": 4321,
-            "image": ""
+            "image": "1.jpeg"
         },
         {
             "id": "2",
@@ -22,7 +22,7 @@
             "timeLeft": "16 hours",
             "isHot": false,
             "sellerId": 9983,
-            "image": ""
+            "image": "2.jpeg"
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "timeLeft": "22 hours",
             "isHot": true,
             "sellerId": 2343,
-            "image": ""
+            "image": "3.jpeg"
         },
         {
             "id": "4",
@@ -46,7 +46,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 2323,
-            "image": ""
+            "image": "4.jpeg"
         },
         {
             "id": "5",
@@ -58,7 +58,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 9983,
-            "image": ""
+            "image": "5.jpeg"
         },
         {
             "id": "6",
@@ -70,7 +70,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 2323,
-            "image": ""
+            "image": "6.jpeg"
         },
         {
             "id": "7",
@@ -82,7 +82,7 @@
             "timeLeft": "1 days",
             "isHot": true,
             "sellerId": 4982,
-            "image": ""
+            "image": "7.jpeg"
         },
         {
             "id": "8",
@@ -94,7 +94,7 @@
             "timeLeft": "1 days",
             "isHot": true,
             "sellerId": 4984,
-            "image": ""
+            "image": "8.jpg"
         }
     ],
     "bestSellers": [
@@ -102,43 +102,43 @@
             "name": "Richard Noga",
             "id": 2323,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "Richard-Noga.jpg"
         },
         {
             "name": "Pingu",
             "id": 2343,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "Pingu.png"
         },
         {
             "name": "DoggieBoy",
             "id": 4321,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "DoggieBoy.jpeg"
         },
         {
             "name": "Julian Co",
             "id": 4984,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "Julian-Co.jpeg"
         },
         {
             "name": "Camillo Ferrari",
             "id": 9983,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "Camillo-Ferrari.jpeg"
         },
         {
             "name": "Ausonia_loi",
             "id": 3421,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "Ausonia_loi.jpeg"
         },
         {
             "name": "Tito",
             "id": 4982,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "Tito.jpeg"
         }
     ]
 }
