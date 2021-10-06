@@ -1,5 +1,5 @@
 {
-    "ntfs": [
+    "nfts": [
         {
             "id": "1",
             "name": "Origins Sculpture",
@@ -10,7 +10,7 @@
             "timeLeft": "22 hours",
             "isHot": true,
             "sellerId": 4321,
-            "image": ""
+            "image": "https://via.placeholder.com/250x150"
         },
         {
             "id": "2",
@@ -22,7 +22,7 @@
             "timeLeft": "16 hours",
             "isHot": false,
             "sellerId": 9983,
-            "image": ""
+            "image": "https://via.placeholder.com/250x150"
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "timeLeft": "22 hours",
             "isHot": true,
             "sellerId": 2343,
-            "image": ""
+            "image": "https://via.placeholder.com/250x150"
         },
         {
             "id": "4",
@@ -46,7 +46,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 2323,
-            "image": ""
+            "image": "https://via.placeholder.com/250x150"
         },
         {
             "id": "5",
@@ -58,7 +58,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 9983,
-            "image": ""
+            "image": "https://via.placeholder.com/250x150"
         },
         {
             "id": "6",
@@ -70,7 +70,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 2323,
-            "image": ""
+            "image": "https://via.placeholder.com/250x150"
         },
         {
             "id": "7",
@@ -82,7 +82,7 @@
             "timeLeft": "1 days",
             "isHot": true,
             "sellerId": 4982,
-            "image": ""
+            "image": "https://via.placeholder.com/250x150"
         },
         {
             "id": "8",
@@ -94,7 +94,7 @@
             "timeLeft": "1 days",
             "isHot": true,
             "sellerId": 4984,
-            "image": ""
+            "image": "https://via.placeholder.com/250x150"
         }
     ],
     "bestSellers": [
