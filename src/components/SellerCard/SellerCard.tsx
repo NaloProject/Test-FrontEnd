@@ -21,7 +21,6 @@ const SellerCard: FC<SellerProps> = ({
   const auction = useAppSelector((state) =>
     selectNtfBySellerId(state, seller.id)
   )
-  console.log('SellerCard::render - size: ', size)
 
   const avatarSize = {
     small: 32,

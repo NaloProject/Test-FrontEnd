@@ -39,11 +39,13 @@ const SellerPage: NextPage<
     selectNtfsBySellerId(state, seller?.id)
   )
 
-  console.log('SellerPage::render - ', sellerNtfs)
-
   useEffect(() => {
     dispatch(fetchData())
   }, [])
+
+  if (!seller) {
+    return <section className="w-full">Seller not found.</section>
+  }
 
   return (
     <Layout>

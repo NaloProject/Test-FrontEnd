@@ -6,7 +6,6 @@ import clsx from 'clsx'
 const Navbar: FC<PropsWithChildren> = ({ children }) => {
   const { pathname } = useRouter()
 
-  console.log('Navbar::render - pathname: ', pathname)
   const displayHomeBtn = pathname !== '/'
 
   return (

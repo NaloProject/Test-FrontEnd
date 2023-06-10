@@ -10,9 +10,7 @@ import { InferGetServerSidePropsType, NextPage } from 'next'
 
 export const getServerSideProps = wrapper.getServerSideProps(
   (store) => async () => {
-    console.log('2. Page.getServerSideProps uses the store to dispatch things')
     await store.dispatch(fetchData())
-    console.log('Home::render - State on server', store.getState())
     return {
       props: {},
     }

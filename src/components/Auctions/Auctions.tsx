@@ -6,6 +6,7 @@ import clsx from 'clsx'
 import FlameIcon from '@Svg/flame-icon.svg'
 import SlideShow from '@Components/SlideShow'
 import AuctionCard from '@Components/AuctionCard'
+import Link from 'next/link'
 
 type AuctionsProps = {
   className?: string
@@ -25,7 +26,9 @@ const Auctions: FC<AuctionsProps> = ({ className }) => {
       />
       <SlideShow slidesToShow={1} slidesToScroll={1}>
         {auctions?.map((auction) => (
-          <AuctionCard auction={auction} key={auction.id} />
+          <Link href={`/auction/${auction.id}`} key={auction.id}>
+            <AuctionCard auction={auction} key={auction.id} />
+          </Link>
         ))}
       </SlideShow>
     </section>
