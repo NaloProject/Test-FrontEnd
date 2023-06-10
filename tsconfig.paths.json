@@ -4,13 +4,12 @@
     "paths": {
       "@Api": ["src/api"],
       "@Components/*": ["src/components/*"],
-      "@Hooks/*": ["src/hooks/*"],
       "@Redux/*": ["src/redux/*"],
       "@Slices/*": ["src/redux/slices/*"],
       "@Selectors/*": ["src/redux/selectors/*"],
       "@Styles/*": ["src/styles/*"],
       "@Svg/*": ["src/svg/*"],
-      "@Types/*": ["src/types/*"]
+      "@Utils/*": ["src/utils/*"]
     }
   }
 }

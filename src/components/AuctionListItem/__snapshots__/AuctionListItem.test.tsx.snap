@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuctionListItem should mount first 1`] = `
+<div>
+  <a
+    class="flex w-full mb-4 pb-4 border border-t-0 border-r-0 border-b-1 sm:border-b-0 border-b-slate-200 dark:border-b-slate-700 border-l-0 last-of-type:border-b-0"
+    href="/auction/6"
+  >
+    <article
+      class="flex w-full"
+    >
+      <div
+        class="h-[64px] w-[64px] lg:h-[128px] lg:w-[128px] mr-4"
+      >
+        <div
+          class="overflow-hidden flex rounded-lg w-full relative h-[64px] w-[64px] lg:h-[128px] lg:w-[128px]"
+        >
+          <img
+            alt="Ceres Searching"
+            class="pointer-events-none h-[64px] w-[64px] lg:h-[128px] lg:w-[128px]"
+            data-nimg="1"
+            decoding="async"
+            height="64"
+            loading="lazy"
+            src="/_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=128&q=75"
+            srcset="/_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=64&q=75 1x, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=128&q=75 2x"
+            style="color: transparent;"
+            width="64"
+          />
+        </div>
+      </div>
+      <div
+        class="flex-1"
+      >
+        <h3
+          class="font-medium lg:font-bold text-[16px] lg:text-[24px] text-slate-700 dark:text-slate-300 mb-1"
+        >
+          Ceres Searching
+        </h3>
+        <h4
+          class="text-[12px] text-slate-300 dark:text-slate-600"
+        >
+          2
+           Editions minted
+        </h4>
+      </div>
+      <div
+        class="flex flex-col items-end"
+      >
+        <span
+          class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+        >
+          10.89
+           ETH
+        </span>
+        <span
+          class="text-[13px] text-slate-400 flex-1"
+        >
+          Starting Bid
+        </span>
+        <div
+          class="hidden lg:block bg-slate-200 dark:bg-slate-400 bottom-[20px] flex rounded-lg px-3 py-2"
+        >
+          <span
+            class="text-slate-700 font-medium mr-2 text-[12px]"
+          >
+            2 days
+             left
+          </span>
+          <span
+            class="inline-block w-[12px] h-[12px]"
+          >
+            <svg />
+          </span>
+        </div>
+      </div>
+    </article>
+  </a>
+</div>
+`;

@@ -5,6 +5,7 @@ import { useAppSelector } from '@Redux/hooks'
 import { ReactComponent as FlameIcon } from '@Svg/flame-icon.svg'
 import { ReactComponent as FavoriteIcon } from '@Svg/favorite.svg'
 import Image from 'next/image'
+import Link from 'next/link'
 import SellerCard from '@Components/SellerCard'
 
 export type AuctionCardProps = {
@@ -21,12 +22,18 @@ const AuctionCard: FC<AuctionCardProps> = ({ auction }) => {
       <div className="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]">
         <header className="w-full relative mb-4">
           <div className="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative">
-            <Image
-              src={auction.image}
-              alt={auction.name}
-              fill
-              className="pointer-events-none object-cover !h-auto !relative"
-            />
+            <Link
+              href={`/auction/${auction.id}`}
+              key={auction.id}
+              className="w-full h-full !relative"
+            >
+              <Image
+                src={auction.image}
+                alt={auction.name}
+                fill
+                className="pointer-events-none object-cover !h-auto !relative"
+              />
+            </Link>
           </div>
           <div className="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2">
             <span className="text-slate-700 font-medium mr-2 text-[12px]">

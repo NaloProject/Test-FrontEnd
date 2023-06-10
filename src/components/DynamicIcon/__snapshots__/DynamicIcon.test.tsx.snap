@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicIcon should mount first 1`] = `
+<div>
+  <svg
+    height="32"
+    width="32"
+  />
+</div>
+`;

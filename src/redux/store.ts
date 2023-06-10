@@ -3,29 +3,32 @@ import {
   ThunkAction,
   Action,
   combineReducers,
-  getDefaultMiddleware,
 } from '@reduxjs/toolkit'
 import { createWrapper } from 'next-redux-wrapper'
-import { persistReducer, persistStore } from 'redux-persist'
+import {
+  persistStore,
+  persistReducer,
+  FLUSH,
+  REHYDRATE,
+  PAUSE,
+  PERSIST,
+  PURGE,
+  REGISTER,
+} from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 
-import { slice } from './nfts/slice'
+import { appReducer } from '@Redux/nfts/appReducer'
 
 const reducers = {
-  [slice.name]: slice.reducer,
+  app: appReducer,
 }
 
-const reducer = combineReducers(reducers)
+export const combined = combineReducers(reducers)
 
 const makeConfiguredStore = () =>
   configureStore({
-    reducer,
+    reducer: combined,
     devTools: true,
-    middleware: getDefaultMiddleware({
-      serializableCheck: {
-        ignoredActions: ['persist/PERSIST'],
-      },
-    }),
   })
 
 export const makeStore = () => {
@@ -35,19 +38,22 @@ export const makeStore = () => {
   }
 
   const persistConfig = {
-    key: 'nextjs',
+    key: 'root',
     storage,
   }
-  const persistedReducer = persistReducer(persistConfig, reducer)
+  const persistedReducer = persistReducer(persistConfig, combined)
+
   const store: any = configureStore({
     reducer: persistedReducer,
     devTools: process.env.NODE_ENV !== 'production',
-    middleware: getDefaultMiddleware({
-      serializableCheck: {
-        ignoredActions: ['persist/PERSIST'],
-      },
-    }),
+    middleware: (getDefaultMiddleware) =>
+      getDefaultMiddleware({
+        serializableCheck: {
+          ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+        },
+      }),
   })
+
   // eslint-disable-next-line no-underscore-dangle
   store.__persistor = persistStore(store)
   return store

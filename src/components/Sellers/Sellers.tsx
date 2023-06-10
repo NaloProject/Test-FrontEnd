@@ -3,7 +3,6 @@ import { useAppSelector } from '@Redux/hooks'
 import { selectAllSellers } from '@Redux/nfts/selectors'
 import Link from 'next/link'
 import { Seller } from '@Redux/types'
-import PaintingIcon from '@Svg/painting-icon.svg'
 import Header from '@Components/Header'
 import SellerCard from '@Components/SellerCard/SellerCard'
 import clsx from 'clsx'
@@ -18,9 +17,8 @@ const Sellers: FC<SellersProps> = ({ className }) => {
   return (
     <section className={clsx('w-full', className)}>
       <Header
-        altImageText="Best sellers"
         className="mb-9"
-        icon={PaintingIcon}
+        iconName="painting"
         subTitle="Best seller this week's NFTs"
         title="Best sellers"
       />

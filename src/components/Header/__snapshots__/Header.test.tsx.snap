@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should mount first 1`] = `
+<div>
+  <header
+    class="flex flex-col"
+  >
+    <h1
+      class="flex align-middle className text-slate-700 dark:text-slate-200"
+    >
+      <span
+        class="font-bold mr-2 text-[24px] sm:mr-2 sm:text-[28px] md:mr-3 md:text-[32px]"
+      >
+        title
+      </span>
+      <span
+        class="h-[32px] w-[20px] sm:w-[25px] md:w-[30px]"
+      >
+        <svg />
+      </span>
+    </h1>
+    <h2
+      class="text-slate-400 dark:text-slate-600 text-[11px] sm:text-[12px] md:text-[14px] className"
+    >
+      sub title
+    </h2>
+  </header>
+</div>
+`;
+
+exports[`Header should render even if the icon is not found 1`] = `
+<div>
+  <header
+    class="flex flex-col"
+  >
+    <h1
+      class="flex align-middle className text-slate-700 dark:text-slate-200"
+    >
+      <span
+        class="font-bold mr-2 text-[24px] sm:mr-2 sm:text-[28px] md:mr-3 md:text-[32px]"
+      >
+        title
+      </span>
+      <span
+        class="h-[32px] w-[20px] sm:w-[25px] md:w-[30px]"
+      />
+    </h1>
+    <h2
+      class="text-slate-400 dark:text-slate-600 text-[11px] sm:text-[12px] md:text-[14px] className"
+    >
+      sub title
+    </h2>
+  </header>
+</div>
+`;

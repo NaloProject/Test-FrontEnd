@@ -3,28 +3,26 @@ import { createSelector } from '@reduxjs/toolkit'
 import { Sale, Seller } from '@Redux/types'
 
 export const selectAllSellers = (state: RootState): Seller[] | undefined =>
-  state?.data?.data?.bestSellers
+  state?.app.bestSellers
 
 export const selectSellerById = createSelector(
   [(state: RootState) => state, (state, id: number) => id],
   (state, id: number): Seller | undefined =>
-    state?.data?.data?.bestSellers?.find(
-      (seller: { id: number }) => seller.id === id
-    )
+    state?.app.bestSellers?.find((seller: { id: number }) => seller.id === id)
 )
 export const selectAllNtfs = (state: RootState): Sale[] | undefined =>
-  state?.data?.data?.nfts
+  state?.app.nfts
 
 export const selectNtfById = createSelector(
   [(state: RootState) => state, (state, id: string) => id],
   (state, id: string): Sale | undefined =>
-    state?.data?.data?.nfts?.find((sale: { id: string }) => sale.id === id)
+    state?.app.nfts?.find((sale: { id: string }) => sale.id === id)
 )
 
 export const selectNtfBySellerId = createSelector(
   [(state: RootState) => state, (state, sellerId: number) => sellerId],
   (state, sellerId: number): Sale | undefined =>
-    state?.data?.data?.nfts?.find(
+    state?.app.nfts?.find(
       (sale: { sellerId: number }) => sale.sellerId === sellerId
     )
 )
@@ -35,7 +33,7 @@ export const selectNtfsBySellerId = createSelector(
     (state, sellerId: number | undefined) => sellerId,
   ],
   (state, sellerId: number | undefined): Sale[] =>
-    state?.data?.data?.nfts?.filter(
+    state?.app.nfts?.filter(
       (sale: { sellerId: number | undefined }) => sale.sellerId === sellerId
     )
 )

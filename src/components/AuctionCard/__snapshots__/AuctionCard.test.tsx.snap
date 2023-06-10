@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuctionCard should mount first 1`] = `
+<div>
+  <article
+    class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+  >
+    <div
+      class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+    >
+      <header
+        class="w-full relative mb-4"
+      >
+        <div
+          class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+        >
+          <a
+            class="w-full h-full !relative"
+            href="/auction/6"
+          >
+            <img
+              alt="Ceres Searching"
+              class="pointer-events-none object-cover !h-auto !relative"
+              data-nimg="fill"
+              decoding="async"
+              loading="lazy"
+              sizes="100vw"
+              src="/_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=3840&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=3840&q=75 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </a>
+        </div>
+        <div
+          class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+        >
+          <span
+            class="text-slate-700 font-medium mr-2 text-[12px]"
+          >
+            2 days
+          </span>
+          <span
+            class="inline-block w-[12px] h-[12px]"
+          >
+            <svg />
+          </span>
+        </div>
+      </header>
+      <div
+        class="flex mb-3"
+      >
+        <div
+          class="flex-1"
+        >
+          <h3
+            class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+          >
+            Ceres Searching
+          </h3>
+          <h4
+            class="text-[12px] text-slate-300 dark:text-slate-600"
+          >
+            2
+             Editions minted
+          </h4>
+        </div>
+        <div
+          class="text-[13px] text-green-400"
+        >
+          1
+           for sale
+        </div>
+      </div>
+      <article
+        class="flex items-center mt-auto"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+          >
+            <img
+              alt="Richard Noga"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+          </div>
+        </div>
+        <div
+          class="flex-1"
+        >
+          <h2
+            class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+          >
+            Richard Noga
+          </h2>
+        </div>
+      </article>
+    </div>
+    <footer
+      class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+    >
+      <div
+        class="flex flex-col"
+      >
+        <span
+          class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+        >
+          10.89
+           ETH
+        </span>
+        <span
+          class="text-[13px] text-slate-400"
+        >
+          Starting Bid
+        </span>
+      </div>
+      <div
+        class="flex items-center"
+      >
+        <span
+          class="font-medium text-[11px] text-slate-400 mr-1"
+        >
+          400
+        </span>
+        <span
+          class="inline-block w-[22px] h-[22px]"
+        >
+          <svg
+            class="fill-slate-400"
+          />
+        </span>
+      </div>
+    </footer>
+  </article>
+</div>
+`;

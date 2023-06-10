@@ -11,6 +11,7 @@ import { InferGetServerSidePropsType, NextPage } from 'next'
 export const getServerSideProps = wrapper.getServerSideProps(
   (store) => async () => {
     await store.dispatch(fetchData())
+    console.log('State on server', store.getState())
     return {
       props: {},
     }

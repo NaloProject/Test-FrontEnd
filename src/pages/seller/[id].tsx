@@ -35,7 +35,7 @@ const SellerPage: NextPage<
 > = ({ id }) => {
   const dispatch = useAppDispatch()
   const seller = useAppSelector((state) => selectSellerById(state, Number(id)))
-  const sellerNtfs = useAppSelector((state) =>
+  const auctions = useAppSelector((state) =>
     selectNtfsBySellerId(state, seller?.id)
   )
 
@@ -56,8 +56,8 @@ const SellerPage: NextPage<
         Sales
       </h2>
       <section className="w-full">
-        {sellerNtfs?.map((ntf) => (
-          <AuctionListItem auction={ntf} />
+        {auctions?.map((auction) => (
+          <AuctionListItem auction={auction} key={auction.id} />
         ))}
       </section>
     </Layout>

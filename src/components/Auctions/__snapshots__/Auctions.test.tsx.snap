@@ -1,0 +1,1630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auctions should mount first 1`] = `
+<div>
+  <section
+    class="w-full"
+  >
+    <header
+      class="flex flex-col mb-9"
+    >
+      <h1
+        class="flex align-middle className text-slate-700 dark:text-slate-200"
+      >
+        <span
+          class="font-bold mr-2 text-[24px] sm:mr-2 sm:text-[28px] md:mr-3 md:text-[32px]"
+        >
+          Live auctions
+        </span>
+        <span
+          class="h-[32px] w-[20px] sm:w-[25px] md:w-[30px]"
+        >
+          <svg />
+        </span>
+      </h1>
+      <h2
+        class="text-slate-400 dark:text-slate-600 text-[11px] sm:text-[12px] md:text-[14px] className"
+      >
+        Enjoy the latest hot auctions
+      </h2>
+    </header>
+    <div
+      class="relative"
+    >
+      <div
+        aria-roledescription="carousel"
+        dir="ltr"
+      >
+        <div
+          class="react-slideshow-container"
+        >
+          <button
+            aria-label="Previous Slide"
+            class="!hidden md:!flex md:items-center md:justify-center top-[-48px] !left-auto !right-[60px] bg-slate-300 dark:bg-slate-600 h-[24px] w-[24px] sm:h-[32px] sm:w-[32px] rounded-full nav "
+            data-type="prev"
+            type="button"
+          >
+            <svg
+              height="16"
+              width="16"
+            />
+          </button>
+          <div
+            class="react-slideshow-wrapper slide "
+          >
+            <div
+              class="images-wrap"
+              style="transform: translate(-0px); width: 0px;"
+            >
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                data-index="-1"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/8"
+                        >
+                          <img
+                            alt="Pickchu"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          1 days
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Pickchu
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          5
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        43
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="Julian Co"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FJulianCo.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FJulianCo.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FJulianCo.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          Julian Co
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        10.89
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        9
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="false"
+                aria-roledescription="slide"
+                class="active"
+                data-index="0"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/1"
+                        >
+                          <img
+                            alt="Origins Sculpture"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          22 hours
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Origins Sculpture
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          8
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        3
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="DoggieBoy"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FDoggieBoy.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FDoggieBoy.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FDoggieBoy.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          DoggieBoy
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        2.78
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        195
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                class=""
+                data-index="1"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/2"
+                        >
+                          <img
+                            alt="The Dark Corner Sculpture"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2FThe-Dark-Corner-Sculpture.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          16 hours
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          The Dark Corner Sculpture
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          5
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        4
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="Camillo Ferrari"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FCamilloFerrari.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FCamilloFerrari.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FCamilloFerrari.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          Camillo Ferrari
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        2.93
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        240
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                class=""
+                data-index="2"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/3"
+                        >
+                          <img
+                            alt="Secret Door"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2FJeff-Koons-Play-Doh.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          22 hours
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Secret Door
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          3
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        4
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="Pingu"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FPingu.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FPingu.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FPingu.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          Pingu
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        4.10
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        89
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                class=""
+                data-index="3"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/4"
+                        >
+                          <img
+                            alt="Ceres Searching"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2FCeres-Searching.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          2 days
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Ceres Searching
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          2
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        1
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="Richard Noga"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          Richard Noga
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        10.89
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        400
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                class=""
+                data-index="4"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/5"
+                        >
+                          <img
+                            alt="Modird Goal"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2Fsculpture-fleur-d-avril-nature-vegetal-flower-plant-medium-open.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          2 days
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Modird Goal
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          2
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        4
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="Camillo Ferrari"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FCamilloFerrari.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FCamilloFerrari.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FCamilloFerrari.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          Camillo Ferrari
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        1.89
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        234
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                class=""
+                data-index="5"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/6"
+                        >
+                          <img
+                            alt="Ceres Searching"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2FContemporary-Sculptures-For-The-Home.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          2 days
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Ceres Searching
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          2
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        1
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="Richard Noga"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FRichard-Noga.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          Richard Noga
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        10.89
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        400
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                class=""
+                data-index="6"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/7"
+                        >
+                          <img
+                            alt="Moroze"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2Ftableau-peinture-rico-sab.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          1 days
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Moroze
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          10
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        1
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="Tito"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FTito.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FTito.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FTito.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          Tito
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        10.89
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        100
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                class=""
+                data-index="7"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/8"
+                        >
+                          <img
+                            alt="Pickchu"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2Fglamor-red-lips-contemporary-art-print.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          1 days
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Pickchu
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          5
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        43
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="Julian Co"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FJulianCo.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FJulianCo.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FJulianCo.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          Julian Co
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        10.89
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        9
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+              <div
+                aria-hidden="true"
+                aria-roledescription="slide"
+                data-index="8"
+                style="width: 0px; display: block;"
+              >
+                <article
+                  class="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full"
+                >
+                  <div
+                    class="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]"
+                  >
+                    <header
+                      class="w-full relative mb-4"
+                    >
+                      <div
+                        class="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative"
+                      >
+                        <a
+                          class="w-full h-full !relative"
+                          href="/auction/1"
+                        >
+                          <img
+                            alt="Origins Sculpture"
+                            class="pointer-events-none object-cover !h-auto !relative"
+                            data-nimg="fill"
+                            decoding="async"
+                            loading="lazy"
+                            sizes="100vw"
+                            src="/_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=3840&q=75"
+                            srcset="/_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fntfs%2Fsothebys-com.brightspotcdn.jpg&w=3840&q=75 3840w"
+                            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                          />
+                        </a>
+                      </div>
+                      <div
+                        class="absolute bg-white bottom-[20px] flex left-[20px] rounded-lg px-3 py-2"
+                      >
+                        <span
+                          class="text-slate-700 font-medium mr-2 text-[12px]"
+                        >
+                          22 hours
+                        </span>
+                        <span
+                          class="inline-block w-[12px] h-[12px]"
+                        >
+                          <svg />
+                        </span>
+                      </div>
+                    </header>
+                    <div
+                      class="flex mb-3"
+                    >
+                      <div
+                        class="flex-1"
+                      >
+                        <h3
+                          class="font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                          Origins Sculpture
+                        </h3>
+                        <h4
+                          class="text-[12px] text-slate-300 dark:text-slate-600"
+                        >
+                          8
+                           Editions minted
+                        </h4>
+                      </div>
+                      <div
+                        class="text-[13px] text-green-400"
+                      >
+                        3
+                         for sale
+                      </div>
+                    </div>
+                    <article
+                      class="flex items-center mt-auto"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <div
+                          class="overflow-hidden rounded-full h-[32px] w-[32px] flex-0 mr-4"
+                        >
+                          <img
+                            alt="DoggieBoy"
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="/_next/image?url=%2Fimages%2FbestSellers%2FDoggieBoy.jpg&w=64&q=75"
+                            srcset="/_next/image?url=%2Fimages%2FbestSellers%2FDoggieBoy.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2FbestSellers%2FDoggieBoy.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        class="flex-1"
+                      >
+                        <h2
+                          class="font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0 mt-auto"
+                        >
+                          DoggieBoy
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <footer
+                    class="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full"
+                  >
+                    <div
+                      class="flex flex-col"
+                    >
+                      <span
+                        class="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1"
+                      >
+                        2.78
+                         ETH
+                      </span>
+                      <span
+                        class="text-[13px] text-slate-400"
+                      >
+                        Starting Bid
+                      </span>
+                    </div>
+                    <div
+                      class="flex items-center"
+                    >
+                      <span
+                        class="font-medium text-[11px] text-slate-400 mr-1"
+                      >
+                        195
+                      </span>
+                      <span
+                        class="inline-block w-[22px] h-[22px]"
+                      >
+                        <svg
+                          class="fill-slate-400"
+                        />
+                      </span>
+                    </div>
+                  </footer>
+                </article>
+              </div>
+            </div>
+          </div>
+          <button
+            aria-label="Next Slide"
+            class="!hidden md:!flex md:items-center md:justify-center top-[-48px] !right-[16px] bg-slate-300 dark:bg-slate-600 h-[24px] w-[24px] sm:h-[32px] sm:w-[32px] rounded-full nav "
+            data-type="next"
+            type="button"
+          >
+            <svg
+              height="16"
+              width="16"
+            />
+          </button>
+        </div>
+        <ul
+          class="indicators"
+        >
+          <li
+            aria-label="Go to slide 1"
+            class="inline-block relative h-[7px] w-[7px] p-[5px] m-0 active"
+            data-key="0"
+          >
+            <button
+              aria-label="Current Slide"
+              class="border-0 bg-transparent transparent before:absolute before:left-0 before:top-0 before:h-[7px] before:w-[7px] before:rounded-full before:bg-slate-400 before:content-[""] before:center"
+              data-key="0"
+              type="button"
+            />
+          </li>
+          <li
+            aria-label="Go to slide 2"
+            class="inline-block relative h-[7px] w-[7px] p-[5px] m-0 "
+            data-key="1"
+          >
+            <button
+              aria-label="Go to slide 2"
+              class="border-0 bg-transparent transparent before:absolute before:left-0 before:top-0 before:h-[7px] before:w-[7px] before:rounded-full before:bg-slate-400 before:content-[""] before:center"
+              data-key="1"
+              type="button"
+            />
+          </li>
+          <li
+            aria-label="Go to slide 3"
+            class="inline-block relative h-[7px] w-[7px] p-[5px] m-0 "
+            data-key="2"
+          >
+            <button
+              aria-label="Go to slide 3"
+              class="border-0 bg-transparent transparent before:absolute before:left-0 before:top-0 before:h-[7px] before:w-[7px] before:rounded-full before:bg-slate-400 before:content-[""] before:center"
+              data-key="2"
+              type="button"
+            />
+          </li>
+          <li
+            aria-label="Go to slide 4"
+            class="inline-block relative h-[7px] w-[7px] p-[5px] m-0 "
+            data-key="3"
+          >
+            <button
+              aria-label="Go to slide 4"
+              class="border-0 bg-transparent transparent before:absolute before:left-0 before:top-0 before:h-[7px] before:w-[7px] before:rounded-full before:bg-slate-400 before:content-[""] before:center"
+              data-key="3"
+              type="button"
+            />
+          </li>
+          <li
+            aria-label="Go to slide 5"
+            class="inline-block relative h-[7px] w-[7px] p-[5px] m-0 "
+            data-key="4"
+          >
+            <button
+              aria-label="Go to slide 5"
+              class="border-0 bg-transparent transparent before:absolute before:left-0 before:top-0 before:h-[7px] before:w-[7px] before:rounded-full before:bg-slate-400 before:content-[""] before:center"
+              data-key="4"
+              type="button"
+            />
+          </li>
+          <li
+            aria-label="Go to slide 6"
+            class="inline-block relative h-[7px] w-[7px] p-[5px] m-0 "
+            data-key="5"
+          >
+            <button
+              aria-label="Go to slide 6"
+              class="border-0 bg-transparent transparent before:absolute before:left-0 before:top-0 before:h-[7px] before:w-[7px] before:rounded-full before:bg-slate-400 before:content-[""] before:center"
+              data-key="5"
+              type="button"
+            />
+          </li>
+          <li
+            aria-label="Go to slide 7"
+            class="inline-block relative h-[7px] w-[7px] p-[5px] m-0 "
+            data-key="6"
+          >
+            <button
+              aria-label="Go to slide 7"
+              class="border-0 bg-transparent transparent before:absolute before:left-0 before:top-0 before:h-[7px] before:w-[7px] before:rounded-full before:bg-slate-400 before:content-[""] before:center"
+              data-key="6"
+              type="button"
+            />
+          </li>
+          <li
+            aria-label="Go to slide 8"
+            class="inline-block relative h-[7px] w-[7px] p-[5px] m-0 "
+            data-key="7"
+          >
+            <button
+              aria-label="Go to slide 8"
+              class="border-0 bg-transparent transparent before:absolute before:left-0 before:top-0 before:h-[7px] before:w-[7px] before:rounded-full before:bg-slate-400 before:content-[""] before:center"
+              data-key="7"
+              type="button"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+`;
