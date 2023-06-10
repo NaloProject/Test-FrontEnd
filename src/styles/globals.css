@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* react-slideshow-image customized indicators */
+.inline-block.relative.h-\[7px\].w-\[7px\].p-\[5px\].m-0 {
+  cursor: pointer;
+  opacity: .5
+}
+
+.inline-block.relative.h-\[7px\].w-\[7px\].p-\[5px\].m-0.active {
+  cursor: default;
+  opacity: 1;
+  pointer-events: none;
+}

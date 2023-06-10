@@ -28,3 +28,14 @@ export const selectNtfBySellerId = createSelector(
       (sale: { sellerId: number }) => sale.sellerId === sellerId
     )
 )
+
+export const selectNtfsBySellerId = createSelector(
+  [
+    (state: RootState) => state,
+    (state, sellerId: number | undefined) => sellerId,
+  ],
+  (state, sellerId: number | undefined): Sale[] =>
+    state?.data?.data?.nfts?.filter(
+      (sale: { sellerId: number | undefined }) => sale.sellerId === sellerId
+    )
+)

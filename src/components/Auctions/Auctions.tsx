@@ -25,7 +25,7 @@ const Auctions: FC<AuctionsProps> = ({ className }) => {
       />
       <SlideShow slidesToShow={1} slidesToScroll={1}>
         {auctions?.map((auction) => (
-          <AuctionCard auction={auction} />
+          <AuctionCard auction={auction} key={auction.id} />
         ))}
       </SlideShow>
     </section>

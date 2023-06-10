@@ -2,7 +2,10 @@ import { Inter } from 'next/font/google'
 import { FC, useState, PropsWithChildren, useEffect } from 'react'
 import clsx from 'clsx'
 import Switch from '@Components/Switch'
-import DynamicIcon from '@Components/DynamicIcon'
+
+import { ReactComponent as SunIcon } from '@Svg/sun.svg'
+import { ReactComponent as MoonIcon } from '@Svg/moon.svg'
+import Navbar from '@Components/Navbar/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,22 +32,14 @@ const Layout: FC<PropsWithChildren> = ({ children }) => {
         <main
           className={`${inter.className} bg-white dark:bg-slate-800 bg-white flex flex-col items-start min-h-screen px-10 py-6 sm:p-14 md:p-16 lg:p-24 sm:m-10 sm:mb-0 sm:rounded-tl-[32px] sm:rounded-tr-[32px] sm:!rounded-bl-0 sm:!rounded-br-0`}
         >
-          <Switch
-            on={darkMode}
-            onClick={toggleMode}
-            iconOff={
-              <DynamicIcon
-                name="sun"
-                className="!fill-white dark:!fill-slate-100"
-              />
-            }
-            iconOn={
-              <DynamicIcon
-                name="moon"
-                className="!fill-white dark:!fill-slate-100"
-              />
-            }
-          />
+          <Navbar>
+            <Switch
+              on={darkMode}
+              onClick={toggleMode}
+              iconOff={SunIcon}
+              iconOn={MoonIcon}
+            />
+          </Navbar>
           {children}
         </main>
       </div>

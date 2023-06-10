@@ -18,7 +18,7 @@ const AuctionCard: FC<AuctionCardProps> = ({ auction }) => {
 
   return (
     <article className="flex flex-col rounded-xl mr-1 sm:mr-2 md:mr-4 h-full">
-      <div className="flex flex-col w-full p-[16px] border border-slate-200 border-b-slate-200 rounded-tl-xl rounded-tr-xl min-h-[386px]">
+      <div className="flex flex-col w-full p-[16px] border border-slate-200 dark:border-slate-600 rounded-tl-xl rounded-tr-xl min-h-[400px]">
         <header className="w-full relative mb-4">
           <div className="overflow-hidden flex rounded-lg w-full relative w-full h-full !relative">
             <Image
@@ -41,8 +41,10 @@ const AuctionCard: FC<AuctionCardProps> = ({ auction }) => {
         </header>
         <div className="flex mb-3">
           <div className="flex-1">
-            <h3 className="font-medium text-slate-700 mb-1">{auction.name}</h3>
-            <h4 className="text-[12px] text-slate-300">
+            <h3 className="font-medium text-slate-700 dark:text-slate-300 mb-1">
+              {auction.name}
+            </h3>
+            <h4 className="text-[12px] text-slate-300 dark:text-slate-600">
               {auction.totalMinted} Editions minted
             </h4>
           </div>
@@ -54,14 +56,12 @@ const AuctionCard: FC<AuctionCardProps> = ({ auction }) => {
           <SellerCard className="mt-auto" seller={sellerById} size="small" />
         )}
       </div>
-      <footer className="flex p-[16px] border border-slate-200 border-b-slate-200 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full">
+      <footer className="flex p-[16px] border border-slate-200 dark:border-slate-600 border-t-0 min-h-[77px] items-center justify-between rounded-bl-xl rounded-br-xl w-full">
         <div className="flex flex-col">
-          <span className="font-bold text-[14px] text-slate-700 mb-1">
+          <span className="font-bold text-[14px] text-slate-700 dark:text-slate-300 mb-1">
             {auction.price} ETH
           </span>
-          {!auction.isHot && (
-            <span className="text-[13px] text-slate-400">Starting Bid</span>
-          )}
+          <span className="text-[13px] text-slate-400">Starting Bid</span>
         </div>
         <div className="flex items-center">
           <span className="font-medium text-[11px] text-slate-400 mr-1">

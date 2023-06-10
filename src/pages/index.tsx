@@ -6,6 +6,7 @@ import { wrapper } from '@Redux/store'
 import Sellers from '@Components/Sellers'
 import Auctions from '@Components/Auctions'
 import Layout from '@Components/Layout'
+import { InferGetServerSidePropsType, NextPage } from 'next'
 
 export const getServerSideProps = wrapper.getServerSideProps(
   (store) => async () => {
@@ -18,7 +19,10 @@ export const getServerSideProps = wrapper.getServerSideProps(
   }
 )
 
-export default function Home() {
+const HomePage: NextPage<
+  InferGetServerSidePropsType<typeof getServerSideProps>
+  // eslint-disable-next-line react/prop-types
+> = () => {
   const dispatch = useAppDispatch()
 
   useEffect(() => {
@@ -32,3 +36,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export default HomePage

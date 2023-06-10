@@ -1,12 +1,18 @@
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import { fetchData } from '@Redux/nfts/actions'
 import { useAppDispatch, useAppSelector } from '@Redux/hooks'
-import { selectNtfById } from '@Redux/nfts/selectors'
+import { selectNtfsBySellerId, selectSellerById } from '@Redux/nfts/selectors'
 import { wrapper } from '@Redux/store'
 import { useEffect } from 'react'
 import { GetServerSideProps, InferGetServerSidePropsType, NextPage } from 'next'
+import Layout from '@Components/Layout'
+import SellerCard from '@Components/SellerCard'
+import AuctionListItem from '@Components/AuctionListItem'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '500', '700', '900'],
+})
 
 type Props = {
   id: string
@@ -23,24 +29,37 @@ export const getServerSideProps: GetServerSideProps<Props> =
     }
   })
 
-const Details: NextPage<
+const SellerPage: NextPage<
   InferGetServerSidePropsType<typeof getServerSideProps>
   // eslint-disable-next-line react/prop-types
 > = ({ id }) => {
   const dispatch = useAppDispatch()
-  const ntfsById = useAppSelector((state) => selectNtfById(state, id))
+  const seller = useAppSelector((state) => selectSellerById(state, Number(id)))
+  const sellerNtfs = useAppSelector((state) =>
+    selectNtfsBySellerId(state, seller?.id)
+  )
 
-  console.log('Details::render - ntfsById[1]: ', ntfsById)
+  console.log('SellerPage::render - ', sellerNtfs)
 
   useEffect(() => {
     dispatch(fetchData())
   }, [])
 
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    />
+    <Layout>
+      {seller && <SellerCard seller={seller} size="large" />}
+      <h2
+        className={`${roboto.className} font-bold mb-2 text-[24px] sm:mb-4 sm:text-[28px] md:text-[32px] text-slate-700 dark:text-slate-200`}
+      >
+        Sales
+      </h2>
+      <section className="w-full">
+        {sellerNtfs?.map((ntf) => (
+          <AuctionListItem auction={ntf} />
+        ))}
+      </section>
+    </Layout>
   )
 }
 
-export default Details
+export default SellerPage

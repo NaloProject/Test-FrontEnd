@@ -25,7 +25,9 @@ const Header: FC<HeaderProps> = ({
   title,
 }) => (
   <header className={clsx(`flex flex-col`, className)}>
-    <h1 className={`flex align-middle ${roboto.className} text-slate-700`}>
+    <h1
+      className={`flex align-middle ${roboto.className} text-slate-700 dark:text-slate-200`}
+    >
       <span className="font-bold mr-2 text-[24px] sm:mr-2 sm:text-[28px] md:mr-3 md:text-[32px]">
         {title}
       </span>
@@ -40,7 +42,7 @@ const Header: FC<HeaderProps> = ({
       )}
     </h1>
     <h2
-      className={`text-slate-400 text-[11px] sm:text-[12px] md:text-[14px] ${openSans.className}`}
+      className={`text-slate-400 dark:text-slate-600 text-[11px] sm:text-[12px] md:text-[14px] ${openSans.className}`}
     >
       {subTitle}
     </h2>

@@ -9,7 +9,7 @@ export type SellerProps = {
   className?: string
   index?: number
   seller: Seller
-  size?: 'small' | 'large'
+  size?: 'small' | 'medium' | 'large'
 }
 
 const SellerCard: FC<SellerProps> = ({
@@ -18,9 +18,16 @@ const SellerCard: FC<SellerProps> = ({
   seller,
   size = 'large',
 }) => {
-  const ntfsBySellerId = useAppSelector((state) =>
+  const auction = useAppSelector((state) =>
     selectNtfBySellerId(state, seller.id)
   )
+  console.log('SellerCard::render - size: ', size)
+
+  const avatarSize = {
+    small: 32,
+    medium: 48,
+    large: 96,
+  }
 
   const pad = (n: string | number, width: number, z?: string) => {
     const y = z || '0'
@@ -33,28 +40,42 @@ const SellerCard: FC<SellerProps> = ({
   return (
     <article
       className={clsx(
-        'flex items-center pb-4 border border-t-0 border-r-0 border-b-1 sm:border-b-0 border-b-slate-200 border-l-0',
+        'flex items-center',
+        { 'mb-6': size === 'large' },
         className
       )}
     >
-      {index ? (
-        <span className="text-slate-400 text-[13px] mr-3 dark:text-slate-900">
+      {index && size === 'medium' ? (
+        <span
+          className={clsx(
+            'text-slate-400 text-[13px] mr-3 dark:text-slate-500',
+            className
+          )}
+        >
           {pad(index, 2)}
         </span>
       ) : null}
-      <Avatar
-        alt={seller.name}
-        className="flex-0 mr-4"
-        size={size === 'small' ? 32 : 48}
-        src={seller.avatar}
-      />
+      <div className="relative">
+        <Avatar
+          alt={seller.name}
+          className="flex-0 mr-4"
+          size={avatarSize[size]}
+          src={seller.avatar}
+        />
+      </div>
       <div className="flex-1">
-        <h2 className="font-bold text-[14px] text-slate-700 my-0">
+        <h2
+          className={clsx(
+            'font-bold text-[14px] text-slate-700 dark:text-slate-200 my-0',
+            { '!text-[20px]': size === 'large' },
+            className
+          )}
+        >
           {seller.name}
         </h2>
-        {size === 'large' ? (
-          <span className="text-slate-400 text-[13px]">
-            {ntfsBySellerId?.price} ETH
+        {size === 'medium' ? (
+          <span className="text-slate-400 dark:text-slate-500 text-[13px]">
+            {auction?.price} ETH
           </span>
         ) : null}
       </div>
