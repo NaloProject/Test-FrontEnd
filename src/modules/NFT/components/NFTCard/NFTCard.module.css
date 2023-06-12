@@ -1,3 +1,72 @@
+.root {
+  --root-width: 222px;
+  --inner-width: calc(var(--root-width) - (2 * var(--spacing-unit)) - 2);
+  --spacing: var(--spacing-unit);
+
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) * 1.5);
+  border: 1px solid var(--border-color);
+  border-radius: var(--default-border-radius);
+  padding: var(--spacing);
+  width: var(--root-width);
+  box-sizing: border-box;
+  border-radius: var(--default-border-radius);
+  transition: background-color 0.2s;
+}
+.root:hover {
+  background-color: var(--primary-color);
+}
+
 .image {
-  max-width: 100%;
+  width: var(--inner-width);
+  height: 150px;
+  border-radius: var(--default-border-radius);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header .title {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-unit);
+}
+
+.header .title .name {
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.header .title .forSale {
+  display: inline-block;
+  color: var(--success-color);
+  text-align: right;
+}
+
+.header .totalMinted {
+  font-size: var(--small-text-font-size);
+}
+
+.separator {
+  border-top: 1px solid var(--border-color);
+  margin: 0 calc(-1 * var(--spacing));
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: calc(var(--spacing-unit) * 2);
+}
+
+.footer .bid {
+  display: block;
+  text-transform: capitalize;
+  margin-top: calc(var(--spacing-unit) / 3);
+  font-size: var(--small-text-font-size);
+  color: var(--secondary-text-color);
 }

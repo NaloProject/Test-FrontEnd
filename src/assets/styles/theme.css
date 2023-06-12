@@ -1,5 +1,5 @@
 :root {
-  --app-background: var(--grey-900);
+  --app-background: linear-gradient(#f2e2e6, #f1e1e5);
 
   /* Font sizes */
   --heading1-font-size: 30px;
@@ -9,45 +9,40 @@
   --heading5-font-size: 16px;
   --text-font-size: 14px;
   --small-text-font-size: 12px;
-  --extra-small-text-font-size: 10px;
-  --input-font-size: 16px;
 
   /* Text colors */
-  --text-color: var(--grey-50);
-  --text-color-inverted: var(--grey-900);
-  --secondary-text-color: var(--grey-300);
-  --title-color: var(--grey-50);
+  --text-color: #2e2652;
+  --text-color-inverted: #fff;
+  --secondary-text-color: #827f93;
+  --title-color: #2e2652;
   --text-primary-color: var(--grey-900);
   --text-active-primary-color: var(--grey-900);
 
   /* Colors */
-  --shadow-color: var(--blue-grey-100);
-  --primary-color: var(--grey-50);
-  --active-primary-color: var(--grey-200);
-  --border-color: var(--grey-800);
-  --input-background-color: var(--grey-800);
-  --danger-color: var(--red);
+  --shadow-color: rgba(0, 0, 0, 0.03);
+  --primary-color: #f2e2e6;
+  --active-primary-color: #dab8c1;
+  --border-color: #eee;
+  --input-background-color: #eee;
+  --danger-color: #fe383a;
   --faded-danger-color: #fbebeb;
   --info-color: #1f78d1;
   --faded-info-color: #edf1ff;
-  --success-color: #009e79;
+  --success-color: #6ebc8c;
   --faded-success-color: #c3fff1;
   --warning-color: #bd9500;
   --faded-warning-color: #fff3c8;
 
   /* Sizes */
-  --content-default-max-width: var(--md-max-width);
-  --small-content-max-width: 500px;
+  --content-default-max-width: 1200px;
+  --small-content-max-width: 768px;
   --spacing-unit: 10px;
-  --content-horizontal-spacing: calc(var(--spacing-unit) * 3);
-  --content-vertical-spacing: calc(var(--spacing-unit) * 2);
-  --photo-ratio: calc(4 / 6);
 
   /* Misc */
   --default-border-radius: 6px;
   --disabled-opacity: 0.5;
   --focus-outline: 0;
-  --focus-box-shadow: 0 0 0 3px var(--grey-800), 0 1px 1px 0 var(--grey-800);
+  --focus-box-shadow: 0 0 0 3px #eee, 0 1px 1px 0 #eee;
 }
 
 html,

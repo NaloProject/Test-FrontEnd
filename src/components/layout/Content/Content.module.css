@@ -1,8 +1,10 @@
 .root {
   display: block;
-  padding: var(--content-vertical-spacing) var(--content-horizontal-spacing);
+  padding: calc(var(--spacing-unit) * 5) calc(var(--spacing-unit) * 10);
   width: 100%;
   box-sizing: border-box;
+  background: #fff;
+  border-radius: calc(var(--spacing-unit) * 3);
 }
 .root:not(.fullwidth) {
   max-width: var(--content-default-max-width);

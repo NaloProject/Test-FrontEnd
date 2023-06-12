@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  gap: var(--spacing-unit);
+  align-items: center;
+  flex-basis: 20%;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: calc(var(--spacing-unit) / 2) var(--spacing-unit);
+  margin: calc(var(--spacing-unit) / -2) calc(-1 * var(--spacing-unit));
+  border-radius: var(--default-border-radius);
+  transition: background-color 0.2s;
+}
+.root:hover {
+  background-color: var(--primary-color);
+}
+
+.name {
+  font-weight: 600;
+}
+
+.index {
+  color: var(--secondary-text-color);
+  font-size: 0.8em;
+  font-weight: 500;
+}

@@ -1,8 +1,14 @@
 import { useNavigate, useParams } from "react-router-dom"
+import { Content } from "../../components/layout/Content"
 import { Page } from "../../components/layout/Page"
 import { Back } from "../../components/navigation/Back"
-import { NFTCard } from "../NFT/components/NFTCard"
+import { Paragraph } from "../../components/typography/Paragraph"
+import { Text } from "../../components/typography/Text"
+import { NFTList } from "../NFT/components/NFTList"
 import { useNFTsBySeller } from "../NFT/lib"
+import { NFT } from "../NFT/types"
+import styles from "./Seller.module.css"
+import { SellerAvatar } from "./components/SellerAvatar"
 import { useSeller } from "./lib"
 
 export default function Seller() {
@@ -12,6 +18,10 @@ export default function Seller() {
   const ownedNFTs = useNFTsBySeller(seller?.id)
   const navigate = useNavigate()
 
+  function navigateToNFT(nft: NFT) {
+    navigate(`/nfts/${nft.id}`)
+  }
+
   if (!seller) {
     navigate("/")
 
@@ -20,28 +30,28 @@ export default function Seller() {
 
   return (
     <Page>
-      <Back to="/">Home</Back>
+      <Content>
+        <Back to="/">Home</Back>
+        <section>
+          <SellerAvatar
+            seller={seller}
+            showWalletAmount
+            big
+            className={styles.header}
+          />
 
-      <section>
-        <div>
-          <img src={seller.avatar} />
-          <br />
-          <span>{seller.name}</span>
-          <br />
-          {seller.isVerified && <span>verified</span>}
-        </div>
-
-        {ownedNFTs.length > 0 && (
-          <div>
-            <h2>NFTs to sell</h2>
+          {ownedNFTs.length > 0 ? (
             <div>
-              {ownedNFTs.map((nft) => (
-                <NFTCard key={nft.id} nft={nft} />
-              ))}
+              <h2>NFTs to sell</h2>
+              <NFTList nfts={ownedNFTs} onSelect={navigateToNFT} />
             </div>
-          </div>
-        )}
-      </section>
+          ) : (
+            <Paragraph className={styles.noNFTs}>
+              <Text secondary>This users has not NFTs to sell actually.</Text>
+            </Paragraph>
+          )}
+        </section>
+      </Content>
     </Page>
   )
 }

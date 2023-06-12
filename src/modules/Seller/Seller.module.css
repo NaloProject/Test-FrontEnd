@@ -1,0 +1,9 @@
+.header {
+  justify-content: center;
+  margin-bottom: calc(var(--spacing-unit) * 10);
+}
+
+.noNFTs {
+  text-align: center;
+  font-size: var(--heading5-font-size);
+}

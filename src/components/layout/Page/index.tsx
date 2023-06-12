@@ -35,7 +35,7 @@ export function Page({ children }: Props) {
       animate="in"
       variants={pageVariants}
       transition={pageTransition}
-      className={styles.content}
+      className={styles.root}
     >
       {children}
     </motion.main>

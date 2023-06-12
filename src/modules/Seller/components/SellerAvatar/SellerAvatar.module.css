@@ -1,0 +1,24 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-unit);
+}
+.root.big {
+  gap: calc(var(--spacing-unit) * 2);
+}
+
+.name {
+  font-weight: 600;
+  flex: 1;
+}
+
+.root.big .name {
+  font-size: var(--heading1-font-size);
+}
+
+.walletAmount {
+  font-size: var(--small-text-font-size);
+}
+.root.big .walletAmount {
+  font-size: var(--heading5-font-size);
+}

@@ -1,0 +1,14 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--spacing-unit) / 3);
+  font-size: var(--small-text-font-size);
+}
+.root.liked {
+  color: var(--danger-color);
+  fill: var(--danger-color);
+}
+
+.icon {
+  width: 17px;
+}

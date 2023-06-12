@@ -1,0 +1,38 @@
+.root {
+  --size: 40px;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-unit);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.root.big {
+  gap: calc(var(--spacing-unit) * 4);
+}
+
+.root.big {
+  --size: 200px;
+}
+
+.verified {
+  --position: -4px;
+  --width: 15px;
+
+  position: absolute;
+  bottom: var(--position);
+  right: var(--position);
+  width: var(--width);
+  fill: #3b5af7;
+  color: #fff;
+}
+
+.root.big .verified {
+  --position: 0px;
+  --width: 50px;
+}

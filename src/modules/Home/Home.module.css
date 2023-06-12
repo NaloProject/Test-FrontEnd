@@ -1,3 +1,7 @@
+.root {
+  box-shadow: 0 0 30px var(--shadow-color);
+}
+
 .root section:not(:first-child) {
   margin-top: calc(var(--spacing-unit) * 10);
 }
@@ -9,7 +13,8 @@
 }
 
 .subtitle {
-  color: var(--text-color-secondary);
+  color: var(--secondary-text-color);
+  font-size: var(--text-font-size);
 }
 .subtitle::first-letter {
   display: block;
