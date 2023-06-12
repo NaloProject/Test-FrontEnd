@@ -1,0 +1,12 @@
+.error {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--faded-danger-color);
+  color: var(--danger-color);
+  padding: var(--spacing-unit);
+}
+
+.error .action:hover {
+  cursor: pointer;
+}

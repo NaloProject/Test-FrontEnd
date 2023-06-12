@@ -1,14 +1,17 @@
 .root {
+  --size: 25%;
+
   display: flex;
   gap: var(--spacing-unit);
   align-items: center;
-  flex-basis: 20%;
-  box-sizing: border-box;
+  flex-basis: var(--size);
+  width: var(--size);
   cursor: pointer;
   padding: calc(var(--spacing-unit) / 2) var(--spacing-unit);
   margin: calc(var(--spacing-unit) / -2) calc(-1 * var(--spacing-unit));
   border-radius: var(--default-border-radius);
   transition: background-color 0.2s;
+  box-sizing: border-box;
 }
 .root:hover {
   background-color: var(--primary-color);
@@ -22,4 +25,22 @@
   color: var(--secondary-text-color);
   font-size: 0.8em;
   font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+  .root {
+    --size: 33.3333%;
+  }
+}
+
+@media (max-width: 768px) {
+  .root {
+    --size: 50%;
+  }
+}
+
+@media (max-width: 680px) {
+  .root {
+    --size: 100%;
+  }
 }

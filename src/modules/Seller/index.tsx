@@ -32,7 +32,8 @@ export default function Seller() {
     <Page>
       <Content>
         <Back to="/">Home</Back>
-        <section>
+
+        <section className={styles.root}>
           <SellerAvatar
             seller={seller}
             showWalletAmount

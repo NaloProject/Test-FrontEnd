@@ -19,12 +19,21 @@
 }
 
 .image {
+  position: relative;
   width: var(--inner-width);
   height: 150px;
   border-radius: var(--default-border-radius);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.image .timeLeft {
+  --position: calc(var(--spacing-unit) * 2);
+
+  position: absolute;
+  bottom: var(--position);
+  left: var(--position);
 }
 
 .header .title {

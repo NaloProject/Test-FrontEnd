@@ -8,7 +8,13 @@
   color: var(--danger-color);
   fill: var(--danger-color);
 }
+.root.big {
+  font-size: var(--heading5-font-size);
+}
 
 .icon {
   width: 17px;
+}
+.root.big .icon {
+  width: 25px;
 }

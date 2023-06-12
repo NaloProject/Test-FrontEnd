@@ -1,4 +1,4 @@
-import { CheckCircleIcon } from "@heroicons/react/24/outline"
+import { CheckCircleIcon } from "@heroicons/react/24/solid"
 import cs from "clsx"
 import { Icon } from "../Icon"
 import styles from "./Avatar.module.css"

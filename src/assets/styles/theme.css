@@ -13,25 +13,15 @@
   /* Text colors */
   --text-color: #2e2652;
   --text-color-inverted: #fff;
-  --secondary-text-color: #827f93;
+  --secondary-text-color: #8982a8;
   --title-color: #2e2652;
-  --text-primary-color: var(--grey-900);
-  --text-active-primary-color: var(--grey-900);
 
   /* Colors */
   --shadow-color: rgba(0, 0, 0, 0.03);
   --primary-color: #f2e2e6;
-  --active-primary-color: #dab8c1;
   --border-color: #eee;
-  --input-background-color: #eee;
   --danger-color: #fe383a;
   --faded-danger-color: #fbebeb;
-  --info-color: #1f78d1;
-  --faded-info-color: #edf1ff;
-  --success-color: #6ebc8c;
-  --faded-success-color: #c3fff1;
-  --warning-color: #bd9500;
-  --faded-warning-color: #fff3c8;
 
   /* Sizes */
   --content-default-max-width: 1200px;
@@ -40,9 +30,6 @@
 
   /* Misc */
   --default-border-radius: 6px;
-  --disabled-opacity: 0.5;
-  --focus-outline: 0;
-  --focus-box-shadow: 0 0 0 3px #eee, 0 1px 1px 0 #eee;
 }
 
 html,

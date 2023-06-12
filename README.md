@@ -5,11 +5,9 @@ You can build the application with the `npm run build` command.
 
 # Time tracking
 
-Scaffold
-Start time: 30min
+Scaffold: 30min
 Features: 2h
-Design:
-Tests:
+Design: 2h
 
 # Nalo Take-Home Test Specification
 

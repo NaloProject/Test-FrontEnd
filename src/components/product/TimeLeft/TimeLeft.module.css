@@ -1,0 +1,6 @@
+.root {
+  padding: calc(var(--spacing-unit) / 1.5) calc(var(--spacing-unit) * 1.2);
+  background: #fff;
+  border-radius: calc(var(--default-border-radius) + 2px);
+  font-size: var(--small-text-font-size);
+}

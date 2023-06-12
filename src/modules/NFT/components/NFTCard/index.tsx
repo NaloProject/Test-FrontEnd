@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { Likes } from "../../../../components/product/Likes"
 import { Price } from "../../../../components/product/Price"
+import { TimeLeft } from "../../../../components/product/TimeLeft"
 import { Text } from "../../../../components/typography/Text"
 import { SellerAvatar } from "../../../Seller/components/SellerAvatar"
 import { useSeller } from "../../../Seller/lib"
@@ -26,7 +27,11 @@ export function NFTCard({ nft, onSelect }: Props) {
       <div
         className={styles.image}
         style={{ backgroundImage: `url(${nft.image})` }}
-      />
+      >
+        {nft.timeLeft && (
+          <TimeLeft timeLeft={nft.timeLeft} className={styles.timeLeft} />
+        )}
+      </div>
       <div className={styles.header}>
         <div className={styles.title}>
           <Text className={styles.name}>{nft.name}</Text>

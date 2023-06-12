@@ -8,11 +8,14 @@ import styles from "./Likes.module.css"
 interface Props {
   count: number
   liked?: boolean
+  big?: boolean
 }
 
-export function Likes({ count, liked }: Props) {
+export function Likes({ count, liked, big }: Props) {
   return (
-    <Text className={cs(styles.root, { [styles.liked]: liked })}>
+    <Text
+      className={cs(styles.root, { [styles.liked]: liked, [styles.big]: big })}
+    >
       {count}{" "}
       <Icon
         icon={liked ? HeartIconFilled : HeartIcon}

@@ -1,3 +1,7 @@
+.root {
+  margin-top: calc(var(--spacing-unit) * 2);
+}
+
 .header {
   justify-content: center;
   margin-bottom: calc(var(--spacing-unit) * 10);
