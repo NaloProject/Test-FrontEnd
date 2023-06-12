@@ -91,7 +91,7 @@ export function useFetch<T = unknown>(
     return () => {
       cancelRequest.current = true
     }
-  }, [url])
+  }, [url, options])
 
   return state
 }
