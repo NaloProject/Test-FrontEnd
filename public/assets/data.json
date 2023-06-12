@@ -1,0 +1,144 @@
+{
+  "nfts": [
+    {
+      "id": "1",
+      "name": "Origins Sculpture",
+      "totalMinted": 8,
+      "price": "2.78",
+      "like": 195,
+      "forSale": 3,
+      "timeLeft": "22 hours",
+      "isHot": true,
+      "sellerId": 4321,
+      "image": "/assets/images/nfts/origin-sculpture.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "The Dark Corner Sculpture",
+      "totalMinted": 5,
+      "price": "2.93",
+      "like": 240,
+      "forSale": 4,
+      "timeLeft": "16 hours",
+      "isHot": false,
+      "sellerId": 9983,
+      "image": "/assets/images/nfts/the-dark-corner-sculpture.jpeg"
+    },
+    {
+      "id": "3",
+      "name": "Secret Door",
+      "totalMinted": 3,
+      "price": "4.10",
+      "like": 89,
+      "forSale": 4,
+      "timeLeft": "22 hours",
+      "isHot": true,
+      "sellerId": 2343,
+      "image": "/assets/images/nfts/secret-door.jpeg"
+    },
+    {
+      "id": "4",
+      "name": "Ceres Searching",
+      "totalMinted": 2,
+      "price": "10.89",
+      "like": 400,
+      "forSale": 1,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 2323,
+      "image": "/assets/images/nfts/ceres-searching.jpeg"
+    },
+    {
+      "id": "5",
+      "name": "Modird Goal",
+      "totalMinted": 2,
+      "price": "1.89",
+      "like": 234,
+      "forSale": 4,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 9983,
+      "image": "/assets/images/nfts/moderd-goal.jpeg"
+    },
+    {
+      "id": "6",
+      "name": "The Dev NFT",
+      "totalMinted": 2,
+      "price": "10.89",
+      "like": 400,
+      "forSale": 1,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 2323,
+      "image": "/assets/images/nfts/the-dev-nft.jpeg"
+    },
+    {
+      "id": "7",
+      "name": "Moroze",
+      "totalMinted": 10,
+      "price": "10.89",
+      "like": 100,
+      "forSale": 1,
+      "timeLeft": "1 days",
+      "isHot": true,
+      "sellerId": 4982,
+      "image": "/assets/images/nfts/moroze.jpeg"
+    },
+    {
+      "id": "8",
+      "name": "Pickchu",
+      "totalMinted": 5,
+      "price": "10.89",
+      "like": 9,
+      "forSale": 43,
+      "timeLeft": "1 days",
+      "isHot": true,
+      "sellerId": 4984,
+      "image": "/assets/images/nfts/pickchu.jpeg"
+    }
+  ],
+  "bestSellers": [
+    {
+      "name": "Richard Noga",
+      "id": 2323,
+      "isVerified": false,
+      "avatar": "/assets/images/sellers/richard-noga.jpeg"
+    },
+    {
+      "name": "Pingu",
+      "id": 2343,
+      "isVerified": false,
+      "avatar": "/assets/images/sellers/pingu.jpeg"
+    },
+    {
+      "name": "DoggieBoy",
+      "id": 4321,
+      "isVerified": false,
+      "avatar": "/assets/images/sellers/doggie-boy.jpeg"
+    },
+    {
+      "name": "Julian Co",
+      "id": 4984,
+      "isVerified": false,
+      "avatar": "/assets/images/sellers/julian-co.jpeg"
+    },
+    {
+      "name": "Camillo Ferrari",
+      "id": 9983,
+      "isVerified": false,
+      "avatar": "/assets/images/sellers/camillo-ferrari.jpeg"
+    },
+    {
+      "name": "Ausonia_loi",
+      "id": 3421,
+      "isVerified": false,
+      "avatar": "/assets/images/sellers/ausania-loi.jpeg"
+    },
+    {
+      "name": "Tito",
+      "id": 4982,
+      "isVerified": false,
+      "avatar": "/assets/images/sellers/tito.jpeg"
+    }
+  ]
+}
