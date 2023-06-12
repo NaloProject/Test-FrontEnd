@@ -2,11 +2,11 @@ import { useNFTs } from "../../../NFT/lib"
 import { Auction } from "../Auction"
 
 export function Auctions() {
-  const auctions = useNFTs()
+  const nfts = useNFTs()
 
   return (
     <div>
-      {auctions.map((nft) => (
+      {nfts.map((nft) => (
         <Auction key={nft.id} nft={nft} />
       ))}
     </div>

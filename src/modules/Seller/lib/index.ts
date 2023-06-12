@@ -6,3 +6,11 @@ export function useBestSellers(): Seller[] {
 
   return state.bestSellers ?? []
 }
+
+export function useSeller(id?: number): Seller | null {
+  const sellers = useBestSellers()
+
+  return Number.isFinite(id)
+    ? sellers.find((seller) => seller.id === id) ?? null
+    : null
+}

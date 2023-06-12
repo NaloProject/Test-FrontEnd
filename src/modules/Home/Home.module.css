@@ -8,6 +8,9 @@
   margin-bottom: calc(var(--spacing-unit) * 1.5);
 }
 
+.subtitle {
+  color: var(--text-color-secondary);
+}
 .subtitle::first-letter {
   display: block;
   text-transform: uppercase;

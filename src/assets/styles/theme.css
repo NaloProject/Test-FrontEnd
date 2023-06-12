@@ -54,7 +54,7 @@ html,
 body {
   margin: 0;
   background: var(--app-background);
-  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: var(--text-font-size);
   color: var(--text-color);
@@ -70,7 +70,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.125;
   color: var(--title-color);
   letter-spacing: -0.02rem;
@@ -101,7 +101,7 @@ p {
 }
 
 button {
-  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1;
   font-weight: 500;
 }
@@ -123,6 +123,6 @@ a:hover {
 
 input {
   color: var(--text-color);
-  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: var(--input-font-size);
 }

@@ -12,5 +12,10 @@ export function Seller({ seller }: Props) {
     navigate(`/sellers/${seller.id}`)
   }
 
-  return <div onClick={navigateToSeller}>{seller.name}</div>
+  return (
+    <div onClick={navigateToSeller}>
+      <img src={seller.avatar} alt="" />
+      <span>{seller.name}</span>
+    </div>
+  )
 }

@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+import { NFTCard } from "../../../NFT/components/NFTCard"
 import { NFT } from "../../../NFT/types"
 
 interface Props {
@@ -12,5 +13,9 @@ export function Auction({ nft }: Props) {
     navigate(`/nfts/${nft.id}`)
   }
 
-  return <div onClick={navigateToNFT}>{nft.name}</div>
+  return (
+    <div onClick={navigateToNFT}>
+      <NFTCard nft={nft} />
+    </div>
+  )
 }
