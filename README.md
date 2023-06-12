@@ -1,13 +1,14 @@
 # Getting started
 
-Run app with `npm start` command.
-You can build the application with the `npm run build` command.
+You can start the application with the command `npm start`.
+
+For production, run the `npm run build` command.
 
 # Time tracking
 
-Scaffold: 30min
-Features: 2h
-Design: 3h
+- Scaffold: 30min
+- Features: 2h
+- Design: 3h
 
 # Nalo Take-Home Test Specification
 
