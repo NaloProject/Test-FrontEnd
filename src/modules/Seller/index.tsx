@@ -30,7 +30,7 @@ export default function Seller() {
 
   return (
     <Page>
-      <Content>
+      <Content small>
         <Back to="/">Home</Back>
 
         <section className={styles.root}>

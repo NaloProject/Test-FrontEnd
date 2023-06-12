@@ -7,9 +7,11 @@
 }
 
 .image {
+  --width: 300px;
+
   position: relative;
-  width: 500px;
-  flex-basis: 500px;
+  flex-basis: var(--width);
+  min-width: var(--width);
   height: 400px;
   border-radius: var(--default-border-radius);
   background-position: center;
@@ -29,27 +31,45 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: calc(var(--spacing-unit));
+  gap: calc(var(--spacing-unit) * 3);
 }
 
-.details .nameContainer {
+.details .header {
   display: flex;
-  align-items: center;
   gap: var(--spacing-unit);
 }
 
-.details .nameContainer .hot {
-  flex-basis: 46px;
+.details .header .nameContainer {
+  flex: 1;
+}
+
+.details .pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.details .hot {
+  --width: 46px;
+
+  display: inline-block;
+  flex-basis: var(--width);
+  min-width: var(--width);
   padding: calc(var(--spacing-unit) / 1.5) calc(var(--spacing-unit) * 1.2);
   background: var(--primary-color);
   border-radius: calc(var(--default-border-radius) + 2px);
   font-size: var(--heading5-font-size);
+  margin-top: var(--spacing-unit);
 }
 
-.details .nameContainer .name {
+.details .header .name {
   flex: 1;
   margin: 0;
   font-size: var(--heading1-font-size);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
 }
 
 .details .price {
@@ -83,7 +103,7 @@
   font-size: var(--heading5-font-size);
 }
 
-.details .footer .sellerWrapper {
+.details .sellerWrapper {
   flex: 1;
   display: flex;
   align-items: center;
@@ -91,19 +111,21 @@
   gap: var(--spacing-unit);
 }
 
-.details .footer .seller {
-  padding: calc(var(--spacing-unit) / 2) var(--spacing-unit);
+.details .seller {
+  display: inline-block;
+  padding: var(--spacing-unit);
+  margin: calc(-1 * var(--spacing-unit));
   border-radius: var(--default-border-radius);
   box-sizing: border-box;
   transition: background-color 0.2s;
 }
 
-.details .footer .seller:hover {
+.details .seller:hover {
   cursor: pointer;
   background-color: var(--primary-color);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
   .root {
     flex-direction: column;
   }
@@ -114,7 +136,7 @@
 }
 
 @media (max-width: 768px) {
-  .details .nameContainer .name {
+  .details .header .name {
     font-size: var(--heading2-font-size);
   }
 

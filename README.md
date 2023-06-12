@@ -7,7 +7,7 @@ You can build the application with the `npm run build` command.
 
 Scaffold: 30min
 Features: 2h
-Design: 2h
+Design: 3h
 
 # Nalo Take-Home Test Specification
 

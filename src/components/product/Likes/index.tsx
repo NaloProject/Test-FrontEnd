@@ -14,6 +14,7 @@ interface Props {
 export function Likes({ count, liked, big }: Props) {
   return (
     <Text
+      secondary
       className={cs(styles.root, { [styles.liked]: liked, [styles.big]: big })}
     >
       {count}{" "}

@@ -31,7 +31,7 @@ export default function NFT() {
 
   return (
     <Page>
-      <Content>
+      <Content small>
         <Back to="/">Home</Back>
 
         <section className={styles.root}>
@@ -43,36 +43,30 @@ export default function NFT() {
           </div>
 
           <div className={styles.details}>
-            <div className={styles.nameContainer}>
-              <h1 className={styles.name}>{nft.name}</h1>
-              {nft.isHot && (
-                <div className={styles.hot}>
-                  <Text>Hot 🔥</Text>
-                </div>
-              )}
+            <div className={styles.header}>
+              <div className={styles.nameContainer}>
+                <h1 className={styles.name}>{nft.name}</h1>
+
+                {nft.isHot && <Text className={styles.hot}>Hot 🔥</Text>}
+              </div>
+              <div className={styles.pricing}>
+                <Price amount={nft.price} className={styles.price} />
+                <Text className={styles.forSale}>{nft.forSale} for sale</Text>
+              </div>
             </div>
 
-            <div>
-              <Price amount={nft.price} className={styles.price} />
-              <br />
-              <Text className={styles.forSale}>{nft.forSale} for sale</Text>
-              <br />
-              <Text secondary className={styles.minted}>
-                {nft.totalMinted} editions minted
-              </Text>
-            </div>
+            {seller && (
+              <div className={styles.seller} onClick={navigateToSeller}>
+                <SellerAvatar seller={seller} showWalletAmount />
+              </div>
+            )}
 
             <div className={styles.footerWrapper}>
               <div className={styles.footer}>
+                <Text secondary className={styles.minted}>
+                  {nft.totalMinted} editions minted
+                </Text>
                 <Likes count={nft.like} big />
-                {seller && (
-                  <div className={styles.sellerWrapper}>
-                    <Text>Selled by</Text>
-                    <div className={styles.seller} onClick={navigateToSeller}>
-                      <SellerAvatar seller={seller} />
-                    </div>
-                  </div>
-                )}
               </div>
             </div>
           </div>

@@ -22,10 +22,11 @@
   --border-color: #eee;
   --danger-color: #fe383a;
   --faded-danger-color: #fbebeb;
+  --success-color: #6ebc8c;
 
   /* Sizes */
   --content-default-max-width: 1200px;
-  --small-content-max-width: 768px;
+  --small-content-max-width: 960px;
   --spacing-unit: 10px;
 
   /* Misc */
