@@ -1,12 +1,13 @@
 import cs from "clsx"
-import { FunctionComponent, MouseEvent, SVGProps } from "react"
+import { MouseEvent } from "react"
 import styles from "./Icon.module.css"
 
 interface Props {
-  icon: FunctionComponent<
-    SVGProps<SVGSVGElement> & {
+  icon: React.ForwardRefExoticComponent<
+    React.SVGProps<SVGSVGElement> & {
       title?: string | undefined
-    }
+      titleId?: string | undefined
+    } & React.RefAttributes<SVGSVGElement>
   >
   className?: string
   onClick?(event: MouseEvent<SVGSVGElement>): void

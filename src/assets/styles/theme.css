@@ -1,0 +1,128 @@
+:root {
+  --app-background: var(--grey-900);
+
+  /* Font sizes */
+  --heading1-font-size: 30px;
+  --heading2-font-size: 26px;
+  --heading3-font-size: 22px;
+  --heading4-font-size: 18px;
+  --heading5-font-size: 16px;
+  --text-font-size: 14px;
+  --small-text-font-size: 12px;
+  --extra-small-text-font-size: 10px;
+  --input-font-size: 16px;
+
+  /* Text colors */
+  --text-color: var(--grey-50);
+  --text-color-inverted: var(--grey-900);
+  --secondary-text-color: var(--grey-300);
+  --title-color: var(--grey-50);
+  --text-primary-color: var(--grey-900);
+  --text-active-primary-color: var(--grey-900);
+
+  /* Colors */
+  --shadow-color: var(--blue-grey-100);
+  --primary-color: var(--grey-50);
+  --active-primary-color: var(--grey-200);
+  --border-color: var(--grey-800);
+  --input-background-color: var(--grey-800);
+  --danger-color: var(--red);
+  --faded-danger-color: #fbebeb;
+  --info-color: #1f78d1;
+  --faded-info-color: #edf1ff;
+  --success-color: #009e79;
+  --faded-success-color: #c3fff1;
+  --warning-color: #bd9500;
+  --faded-warning-color: #fff3c8;
+
+  /* Sizes */
+  --content-default-max-width: var(--md-max-width);
+  --small-content-max-width: 500px;
+  --spacing-unit: 10px;
+  --content-horizontal-spacing: calc(var(--spacing-unit) * 3);
+  --content-vertical-spacing: calc(var(--spacing-unit) * 2);
+  --photo-ratio: calc(4 / 6);
+
+  /* Misc */
+  --default-border-radius: 6px;
+  --disabled-opacity: 0.5;
+  --focus-outline: 0;
+  --focus-box-shadow: 0 0 0 3px var(--grey-800), 0 1px 1px 0 var(--grey-800);
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--app-background);
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: var(--text-font-size);
+  color: var(--text-color);
+}
+
+body {
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+  line-height: 1.125;
+  color: var(--title-color);
+  letter-spacing: -0.02rem;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+h3,
+h4 {
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+h5,
+h6 {
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: var(--text-font-size);
+}
+
+button {
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+  line-height: 1;
+  font-weight: 500;
+}
+
+a,
+span,
+div {
+  font-size: var(--text-font-size);
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+input {
+  color: var(--text-color);
+  font-family: Graphik, Arial, Helvetica, sans-serif;
+  font-size: var(--input-font-size);
+}
