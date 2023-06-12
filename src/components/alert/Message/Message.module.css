@@ -1,0 +1,83 @@
+.root {
+  display: flex;
+  width: 100%;
+  min-height: 42px;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+  font-size: var(--text-font-size);
+  color: var(--text-color-inverted);
+  background-color: var(--grey-200);
+  border-radius: var(--default-border-radius);
+  box-sizing: border-box;
+}
+
+.root.success {
+  background-color: var(--faded-success-color);
+}
+
+.root.warning {
+  background-color: var(--faded-warning-color);
+}
+
+.root.error {
+  background-color: var(--faded-danger-color);
+}
+
+.root.info {
+  background-color: var(--faded-info-color);
+}
+
+.link {
+  text-decoration: underline;
+  color: var(--text-color-inverted);
+}
+
+.root.success .content {
+  color: var(--success-color);
+}
+.root.success .content .link {
+  color: var(--success-color);
+}
+
+.root.warning .content {
+  color: var(--warning-color);
+}
+.root.warning .content .link {
+  color: var(--warning-color);
+}
+
+.root.error .content {
+  color: var(--danger-color);
+}
+.root.error .content .link {
+  color: var(--danger-color);
+}
+
+.root.info .content {
+  color: var(--info-color);
+}
+.root.info .content .link {
+  color: var(--info-color);
+}
+
+.actionIconContainer {
+  width: 20px;
+  height: 20px;
+  margin-left: calc(var(--spacing-unit) * 2);
+}
+
+.actionIconContainer svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--inactive-color);
+  transition: fill 0.2s;
+}
+
+.actionIconContainer:hover {
+  cursor: pointer;
+}
+
+.actionIconContainer:hover svg {
+  fill: var(--text-color-normal);
+}

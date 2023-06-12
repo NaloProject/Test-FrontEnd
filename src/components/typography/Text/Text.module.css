@@ -1,0 +1,35 @@
+.root {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: 1.5;
+  color: inherit;
+  white-space: pre-wrap;
+}
+.root.secondary {
+  color: var(--secondary-text-color);
+}
+.root.medium {
+  font-weight: 500;
+}
+.root.semibold {
+  font-weight: 600;
+}
+.root.bold {
+  font-weight: 700;
+}
+.root.heavy {
+  font-weight: 800;
+}
+.root.black {
+  font-weight: 900;
+}
+.root.italic {
+  font-style: italic;
+}
+.root.underlined {
+  text-decoration: underline;
+}
+.root.uppercased {
+  text-transform: uppercase;
+}

@@ -1,0 +1,26 @@
+.root {
+  flex: 1;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: calc(var(--spacing-unit) * 2);
+}
+
+.icon {
+  width: 70px;
+  color: var(--secondary-text-color);
+}
+
+.content {
+  text-align: center;
+}
+
+.content,
+.content span,
+.content p,
+.content a {
+  color: var(--secondary-text-color);
+}

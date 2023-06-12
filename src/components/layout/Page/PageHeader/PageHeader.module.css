@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  margin-bottom: calc(var(--spacing-unit) * 2);
+  position: relative;
+  align-items: center;
+  height: 60px;
+}
+
+.root .back {
+  position: absolute;
+  left: 0;
+}
+
+.root .heading {
+  font-family: "ivypresto-headline", serif;
+  font-size: clamp(var(--heading3-font-size), 5vw, var(--heading2-font-size));
+}
+.root .heading.centered {
+  flex: 1;
+  text-align: center;
+}

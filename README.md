@@ -1,3 +1,11 @@
+# Time tracking
+
+Scaffold
+Start time: 10:30am -> 11:00am
+Features:
+Design:
+Tests:
+
 # Nalo Take-Home Test Specification
 
 Tu es un nouveau développeur dans l'équipe Nalo, et ta première tâche consiste à développer la nouvelle plateforme NFT de Nalo.
@@ -35,7 +43,7 @@ Requis :
 - [ ] Implémente les fonctionnalités requises
 - [ ] Teste toutes tes fonctionnalités
 - [ ] Publie-le sur GitHub en tant que `pull-request`
-- [ ] Envoie-nous le lien et dis-nous approximativement combien de temps vous avez passé sur ce travail.
+- [ ] Envoie-nous le lien et dis-nous approximativement combien de temps vous avez passé sur ce travail
 
 # Getting Started with Create React App
 
