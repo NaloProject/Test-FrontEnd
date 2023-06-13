@@ -1,0 +1,9 @@
+.root {
+  color: var(--secondary-text-color);
+  font-size: var(--text-font-size);
+  font-weight: 500;
+}
+.root::first-letter {
+  display: block;
+  text-transform: uppercase;
+}

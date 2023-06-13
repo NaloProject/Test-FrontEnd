@@ -13,12 +13,13 @@
   /* Text colors */
   --text-color: #2e2652;
   --text-color-inverted: #fff;
-  --secondary-text-color: #8982a8;
+  --secondary-text-color: #a19cbd;
   --title-color: #2e2652;
 
   /* Colors */
   --shadow-color: rgba(0, 0, 0, 0.03);
   --primary-color: #f2e2e6;
+  --active-primary-color: #f8eef0;
   --border-color: #eee;
   --danger-color: #fe383a;
   --faded-danger-color: #fbebeb;

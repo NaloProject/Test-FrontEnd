@@ -1,0 +1,5 @@
+.root {
+  display: block;
+  text-transform: capitalize;
+  margin-bottom: calc(var(--spacing-unit) * 1.5);
+}

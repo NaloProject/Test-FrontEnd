@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  padding: var(--spacing-unit);
+  border-radius: 50%;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.root:hover {
+  background-color: var(--primary-color);
+}
+.root:active {
+  background-color: var(--active-primary-color);
+}
+
+.icon {
+  width: 17px;
+}

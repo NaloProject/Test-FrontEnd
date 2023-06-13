@@ -5,23 +5,3 @@
 .root section:not(:first-child) {
   margin-top: calc(var(--spacing-unit) * 10);
 }
-
-.title {
-  display: block;
-  text-transform: capitalize;
-  margin-bottom: calc(var(--spacing-unit) * 1.5);
-}
-
-.subtitle {
-  color: var(--secondary-text-color);
-  font-size: var(--text-font-size);
-}
-.subtitle::first-letter {
-  display: block;
-  text-transform: uppercase;
-}
-
-.bestSellers,
-.auctions {
-  margin-top: calc(var(--spacing-unit) * 4);
-}

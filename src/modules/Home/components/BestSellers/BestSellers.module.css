@@ -1,6 +1,7 @@
-.root {
+.list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: calc(var(--spacing-unit) * 2.5);
+  margin-top: calc(var(--spacing-unit) * 4);
 }
