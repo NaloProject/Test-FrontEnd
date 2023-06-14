@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > Message should match snapshot 1`] = `
+Array [
+  <div
+    className="root"
+  >
+    <div
+      className="content"
+    >
+      <span
+        className="root"
+      >
+        Lorem ipsum
+      </span>
+    </div>
+  </div>,
+  <div
+    className="root error"
+  >
+    <div
+      className="content"
+    >
+      <span
+        className="root"
+      >
+        Lorem ipsum
+      </span>
+    </div>
+  </div>,
+  <div
+    className="root warning"
+  >
+    <div
+      className="content"
+    >
+      <span
+        className="root"
+      >
+        Lorem ipsum
+      </span>
+    </div>
+  </div>,
+  <div
+    className="root info"
+  >
+    <div
+      className="content"
+    >
+      <span
+        className="root"
+      >
+        Lorem ipsum
+      </span>
+    </div>
+  </div>,
+  <div
+    className="root success"
+  >
+    <div
+      className="content"
+    >
+      <span
+        className="root"
+      >
+        Lorem ipsum
+      </span>
+    </div>
+  </div>,
+  <div
+    className="root"
+  >
+    <div
+      className="content"
+    >
+      <span
+        className="root"
+      >
+        Lorem ipsum
+      </span>
+    </div>
+    <div
+      className="actionIconContainer"
+    >
+      <span>
+        Action
+      </span>
+    </div>
+  </div>,
+  <div
+    className="root"
+  >
+    <div
+      className="content"
+    >
+      <span
+        className="root"
+      >
+        Lorem ipsum
+        <span
+          className="root"
+        >
+           
+          <a
+            className="link"
+            href="/"
+            onClick={[Function]}
+          >
+            Back home
+          </a>
+        </span>
+      </span>
+    </div>
+  </div>,
+]
+`;

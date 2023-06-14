@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFT module > Cover should match snapshot 1`] = `
+<div
+  className="root"
+  style={
+    Object {
+      "backgroundImage": "url(/assets/images/nfts/origin-sculpture.jpeg)",
+    }
+  }
+>
+  <div
+    className="root timeLeft"
+  >
+    <span
+      className="root"
+    >
+      22 hours
+       left 🔥
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > Text should match snapshot 1`] = `
+<div>
+  <span
+    className="root"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root secondary"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root italic"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root underlined"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root uppercased"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root medium"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root semibold"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root bold"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root heavy"
+  >
+    Lorem ipsum
+  </span>
+  <span
+    className="root black"
+  >
+    Lorem ipsum
+  </span>
+</div>
+`;

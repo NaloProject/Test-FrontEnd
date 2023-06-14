@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > Content should match snapshot 1`] = `
+<div>
+  <div
+    className="root"
+  />
+  <div
+    className="root small"
+  />
+  <div
+    className="root fullwidth"
+  />
+  <div
+    className="root noHorizontalSpacingOnMobile"
+  />
+  <div
+    className="root noHorizontalSpacingOnTablet"
+  />
+  <div
+    className="root noVerticalSpacing"
+  />
+</div>
+`;

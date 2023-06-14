@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home module > Subtitle should match snapshot 1`] = `
+<h2
+  className="root"
+>
+  Lorem ipsum
+</h2>
+`;

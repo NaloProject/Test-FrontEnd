@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFT module > NFTCard should match snapshot 1`] = `
+<div
+  className="root"
+  onClick={[Function]}
+>
+  <div
+    className="image"
+    style={
+      Object {
+        "backgroundImage": "url(/assets/images/nfts/origin-sculpture.jpeg)",
+      }
+    }
+  >
+    <div
+      className="root timeLeft"
+    >
+      <span
+        className="root"
+      >
+        22 hours
+         left 🔥
+      </span>
+    </div>
+  </div>
+  <div
+    className="header"
+  >
+    <div
+      className="title"
+    >
+      <span
+        className="root name"
+      >
+        Origins Sculpture
+      </span>
+      <span
+        className="root forSale"
+      >
+        3
+         for sale
+      </span>
+    </div>
+    <span
+      className="root secondary totalMinted"
+    >
+      8
+       editions minted
+    </span>
+  </div>
+  <div
+    className="separator"
+  />
+  <div
+    className="footer"
+  >
+    <div>
+      <span
+        className="root bold"
+      >
+        2.00
+         ETH
+      </span>
+      <br />
+      <a
+        className="bid"
+        href="/nfts/1"
+        onClick={[Function]}
+      >
+        starting bid
+      </a>
+    </div>
+    <div>
+      <span
+        className="root secondary root"
+      >
+        195
+         
+        <svg
+          aria-hidden="true"
+          className="root icon"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={1.5}
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+</div>
+`;

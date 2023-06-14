@@ -10,3 +10,7 @@
 .error .action:hover {
   cursor: pointer;
 }
+
+.loader {
+  margin: auto;
+}

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > Price should match snapshot 1`] = `
+<span
+  className="root"
+>
+  10.00
+   ETH
+</span>
+`;

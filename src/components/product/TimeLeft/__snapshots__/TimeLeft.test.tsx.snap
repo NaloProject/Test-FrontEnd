@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components > TimeLeft should match snapshot 1`] = `
+<div
+  className="root"
+>
+  <span
+    className="root"
+  >
+    10 hours
+     left 🔥
+  </span>
+</div>
+`;
