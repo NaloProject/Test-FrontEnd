@@ -7,8 +7,8 @@ For production, run the `npm run build` command.
 # Time tracking
 
 - Scaffold: 30min
-- Features: 2h
-- Design: 3h
+- Features: 4h
+- Design: 4h
 
 # Nalo Take-Home Test Specification
 

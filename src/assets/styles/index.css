@@ -1,3 +1,4 @@
 @import-normalize;
 @import "./breakpoints";
+@import "./fonts";
 @import "./theme";
