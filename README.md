@@ -9,6 +9,7 @@ For production, run the `npm run build` command.
 - Scaffold: 30min
 - Features: 4h
 - Design: 4h
+- Tests: 2h
 
 # Nalo Take-Home Test Specification
 
