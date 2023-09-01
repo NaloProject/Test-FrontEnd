@@ -18,29 +18,16 @@
         "name": "next"
       }
     ],
+    "baseUrl": "src/",
     "paths": {
-      //assets paths
-      "@assets/*": ["./src/assets/*"],
-      "@assets": ["./src/assets/index.ts"],
-
-      //domains paths
-      "@domains/*": ["./src/domains/*"],
-
-      //common paths
-      "@ctypes/*": ["./src/domains/common/types/*"],
-      "@contexts": ["./src/domains/common/contexts/index.ts"],
-      "@hooks": ["./src/domains/common/hooks/index.ts"],
-      "@hocs": ["./src/domains/common/hocs/index.ts"],
-      "@services": ["./src/domains/common/services/index.ts"],
-      "@helpers/*": ["./src/domains/common/helpers/*"],
-      "@enums": ["./src/domains/common/enums/index.ts"],
-      "@constants": ["./src/domains/common/constants/index.ts"],
-
-      //app paths
-      "@layout": ["./src/layout/index.ts"],
-      "@ui/*": ["./src/ui/*"],
-      "@config": ["./src/config/index.ts"],
-      "@data": ["./src/data/index.ts"]
+      "@/*": ["app/*"],
+      "@styles/*": ["assets/styles/*"],
+      "@assets": ["assets/index.ts"],
+      "@ui": ["ui/index.ts"],
+      "@data": ["data/index.ts"],
+      "@api": ["app/api/index.ts"],
+      "@config": ["config/index.ts"],
+      "@domains/*": ["domains/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
