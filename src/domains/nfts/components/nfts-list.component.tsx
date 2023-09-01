@@ -2,7 +2,7 @@ import { use } from 'react'
 
 import { getNfts } from '@domains/nfts'
 
-const NftList = () => {
+const NftList: FC = () => {
 	const nftsList = use(getNfts())
 
 	return (

@@ -2,7 +2,7 @@ import { use } from 'react'
 
 import { getSellers } from '@domains/sellers'
 
-const SellersList = () => {
+const SellersList: FC = () => {
 	const sellersList = use(getSellers())
 
 	return (

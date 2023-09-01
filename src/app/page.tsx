@@ -1,13 +1,13 @@
-import { Suspense } from 'react'
+import { FC, Suspense } from 'react'
 
 import { NftList } from '@domains/nfts'
 import { SellersList } from '@domains/sellers'
 
 import { Loader } from '@ui'
 
-const Home = () => {
+const Home: FC = () => {
 	return (
-		<main>
+		<>
 			<Suspense fallback={<Loader />}>
 				<NftList />
 			</Suspense>
@@ -15,7 +15,7 @@ const Home = () => {
 			<Suspense fallback={<Loader />}>
 				<SellersList />
 			</Suspense>
-		</main>
+		</>
 	)
 }
 

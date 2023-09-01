@@ -1,4 +1,4 @@
-const Loader = () => {
+const Loader: FC = () => {
 	return <div>Loading...</div>
 }
 
