@@ -1,12 +1,26 @@
-const Loader: FC = () => {
+import { CNM } from '@helpers/classes'
+
+type PLoader = {
+	size?: 'small' | 'medium' | 'large'
+}
+
+const Loader: FC<PLoader> = ({ size = 'medium' }) => {
 	return (
 		<div
-			className={'m-5'}
+			className={CNM(
+				size === 'medium' && 'm-5',
+				size === 'small' && 'm-0.5',
+			)}
 			role='status'
 		>
 			<svg
 				aria-hidden='true'
-				className='w-6 h-6 text-gray-100 animate-spin fill-nalo-pink'
+				className={CNM(
+					'text-gray-100 animate-spin fill-nalo-pink',
+					size === 'small' && 'w-3 h-3',
+					size === 'medium' && 'w-7 h-7',
+					size === 'large' && 'w-9 h-9',
+				)}
 				viewBox='0 0 100 101'
 				fill='none'
 				xmlns='http://www.w3.org/2000/svg'
@@ -20,6 +34,7 @@ const Loader: FC = () => {
 					fill='currentFill'
 				/>
 			</svg>
+
 			<span className='sr-only'>Loading...</span>
 		</div>
 	)

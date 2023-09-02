@@ -2,7 +2,8 @@ import { BsCheck } from 'react-icons/bs'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { ISeller } from '@domains/sellers'
+import { ISeller } from '../types'
+import { SellerTotalSell } from './seller-total-sell.component'
 
 import { assets } from '@assets'
 
@@ -45,7 +46,11 @@ const SellerEmbed: FC<PSellerEmbed> = ({ seller }) => {
 					)}
 				</div>
 
-				<span className={'font-medium text-base'}>{name}</span>
+				<div className={'flex flex-col'}>
+					<span className={'font-medium text-base'}>{name}</span>
+
+					<SellerTotalSell sellerId={id} />
+				</div>
 			</article>
 		</Link>
 	)
