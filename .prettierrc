@@ -38,6 +38,7 @@
         "^@assets(.*)$",
         "",
         "^@layout(.*)$",
+        "^@components(.*)$",
         "^@ui(.*)$"
     ],
     "importOrderBuiltinModulesToTop": true,

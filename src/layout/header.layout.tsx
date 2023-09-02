@@ -9,7 +9,7 @@ const HeaderLayout: FC<PHeaderLayout> = ({ children, className, ...rest }) => {
 		<header
 			className={CNM(
 				`px-6 py-3 bg-white shadow-box rounded-b-2xl
-				flex justify-between gap-6 text-right`,
+				flex items-center justify-between gap-6 text-right w-full max-w-[50rem] mx-auto`,
 				className ?? '',
 			)}
 			{...rest}

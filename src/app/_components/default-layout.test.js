@@ -20,9 +20,9 @@ describe('Default Layout', () => {
 	})
 
 	it('renders a main element', () => {
-		const { container } = render(<DefaultLayout />)
+		render(<DefaultLayout />)
 
-		const main = container.querySelector('main')
+		const main = screen.getByRole('main')
 
 		expect(main).toBeInTheDocument()
 	})

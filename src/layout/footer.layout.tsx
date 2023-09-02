@@ -8,13 +8,14 @@ const FooterLayout: FC<PFooterLayout> = ({ children, className, ...rest }) => {
 	return (
 		<footer
 			className={CNM(
-				`px-4 pb-2 pt-3 bg-white shadow-box
-				rounded-t-2xl justify-self-end`,
+				`w-full max-w-[50rem] mx-auto flex justify-end`,
 				className ?? '',
 			)}
 			{...rest}
 		>
-			{children}
+			<div className={'px-4 pb-2 pt-3 bg-white shadow-box rounded-t-2xl'}>
+				{children}
+			</div>
 		</footer>
 	)
 }

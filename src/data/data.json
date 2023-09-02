@@ -102,43 +102,43 @@
             "name": "Richard Noga",
             "id": 2323,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "/medias/avatars/1.jpg"
         },
         {
             "name": "Pingu",
             "id": 2343,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "/medias/avatars/2.jpg"
         },
         {
             "name": "DoggieBoy",
             "id": 4321,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "/medias/avatars/3.jpg"
         },
         {
             "name": "Julian Co",
             "id": 4984,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "/medias/avatars/4.jpg"
         },
         {
             "name": "Camillo Ferrari",
             "id": 9983,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "/medias/avatars/5.jpg"
         },
         {
             "name": "Ausonia_loi",
             "id": 3421,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "/medias/avatars/6.jpg"
         },
         {
             "name": "Tito",
             "id": 4982,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "/medias/avatars/7.jpg"
         }
     ]
 }

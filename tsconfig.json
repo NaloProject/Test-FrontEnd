@@ -34,6 +34,7 @@
       "@hocs": ["domains/common/hocs/index.ts"],
       "@services": ["domains/common/services/index.ts"],
       "@helpers/*": ["domains/common/helpers/*"],
+      "@components": ["domains/common/components/index.ts"],
       "@enums": ["domains/common/enums/index.ts"],
       "@constants": ["domains/common/constants/index.ts"],
     }

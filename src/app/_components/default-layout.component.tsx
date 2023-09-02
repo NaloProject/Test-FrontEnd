@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { assets } from '@assets'
 
@@ -8,12 +9,17 @@ const DefaultLayout: FCC = ({ children }) => {
 	return (
 		<>
 			<Layout.Header>
-				<Image
-					src={assets.logos.main}
-					alt={'Nalo'}
-					width={80}
-					height={27}
-				/>
+				<Link
+					href={'/'}
+					className={'p-1 flex-shrink-0'}
+				>
+					<Image
+						src={assets.logos.main}
+						alt={'Nalo'}
+						width={80}
+						height={27}
+					/>
+				</Link>
 
 				<span
 					className={`px-3 py-1 rounded bg-gradient-to-r from-nalo-pink

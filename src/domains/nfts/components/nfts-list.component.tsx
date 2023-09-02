@@ -6,11 +6,11 @@ const NftList: FC = () => {
 	const nftsList = use(getNfts())
 
 	return (
-		<section>
+		<ul>
 			{nftsList.map((nft) => {
-				return <div key={nft.id}>{nft.name}</div>
+				return <li key={nft.id}>{nft.name}</li>
 			})}
-		</section>
+		</ul>
 	)
 }
 
