@@ -25,7 +25,7 @@ const DefaultLayout: FCC = ({ children }) => {
 					className={`px-3 py-1 rounded bg-gradient-to-r from-nalo-pink
 						to-nalo-purple text-white italic text-sm`}
 				>
-					The best NFT's market place!
+					The best NFT&apos;s market place!
 				</span>
 			</Layout.Header>
 

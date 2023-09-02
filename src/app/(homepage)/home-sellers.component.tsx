@@ -16,7 +16,7 @@ const HomeSellers: FC = () => {
 				/>
 
 				<Paragraph className={'mt-2'}>
-					Best seller of this week's NFTs
+					Best seller of this week&apos;s NFTs
 				</Paragraph>
 			</div>
 
