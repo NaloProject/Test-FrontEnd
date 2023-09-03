@@ -3,6 +3,7 @@ import path from 'path'
 import { redirect } from 'next/navigation'
 
 import { INFT } from '@domains/nfts'
+import { TSellerID } from '@domains/sellers'
 
 export const getNfts = (nftsPage: number, limit: number | null) => {
 	const jsonDirectory = path.join(process.cwd(), 'src/data')
@@ -26,4 +27,10 @@ export const getNfts = (nftsPage: number, limit: number | null) => {
 			maxPages: maxPages,
 		}
 	})
+}
+
+export const getSellerNfts = async (sellerId: TSellerID) => {
+	const { nfts } = await getNfts(1, null)
+
+	return nfts.filter((nft) => nft.sellerId === sellerId)
 }

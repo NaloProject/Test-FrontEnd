@@ -1,7 +1,9 @@
-import { FC } from 'react'
+import { FC, Suspense } from 'react'
 
 import { HomeNfts } from './home-nfts.component'
 import { HomeSellers } from './home-sellers.component'
+
+import { Loader } from '@ui'
 
 type PHomePage = {
 	searchParams: { [key: string]: string | string[] | undefined }
@@ -15,7 +17,9 @@ const HomePage: FC<PHomePage> = ({ searchParams }) => {
 		<div className={'max-w-5xl mx-auto space-y-16'}>
 			<HomeSellers />
 
-			<HomeNfts nftsPage={nftsPage} />
+			<Suspense fallback={<Loader />}>
+				<HomeNfts nftsPage={nftsPage} />
+			</Suspense>
 		</div>
 	)
 }

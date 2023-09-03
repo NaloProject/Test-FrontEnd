@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-import { getNfts } from '@domains/nfts'
+import { getSellerNfts } from '@domains/nfts'
 
 export async function GET(request: Request) {
 	const { searchParams } = new URL(request.url)
@@ -17,8 +17,7 @@ export async function GET(request: Request) {
 		)
 	}
 
-	const { nfts, maxPages } = await getNfts(1, null)
-	const sellerNfts = nfts.filter((nft) => nft.sellerId === +sellerId)
+	const sellerNfts = await getSellerNfts(+sellerId)
 
 	return NextResponse.json(sellerNfts)
 }

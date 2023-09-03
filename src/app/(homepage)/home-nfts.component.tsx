@@ -1,16 +1,20 @@
-import { Suspense } from 'react'
 import { AiOutlineFire } from 'react-icons/ai'
+import Link from 'next/link'
 
-import { NftsList } from '@domains/nfts'
+import { getNfts, NftsList } from '@domains/nfts'
+
+import { CNM } from '@helpers/classes'
 
 import { TitleWithImage } from '@components'
-import { Loader, Paragraph } from '@ui'
+import { Arrow, Paragraph } from '@ui'
 
 type PHomeNfts = {
 	nftsPage: number
 }
 
-const HomeNfts: FC<PHomeNfts> = ({ nftsPage }) => {
+const HomeNfts: FC<PHomeNfts> = async ({ nftsPage }) => {
+	const { nfts, maxPages } = await getNfts(nftsPage, 4)
+
 	return (
 		<section>
 			<div className={'mb-3'}>
@@ -24,9 +28,45 @@ const HomeNfts: FC<PHomeNfts> = ({ nftsPage }) => {
 				</Paragraph>
 			</div>
 
-			<Suspense fallback={<Loader />}>
-				<NftsList nftsPage={nftsPage} />
-			</Suspense>
+			<div className={'flex flex-col gap-6'}>
+				<div className={'flex items-center gap-2 self-end'}>
+					<Link
+						href={{
+							pathname: '/',
+							query: {
+								page: nftsPage > 1 ? nftsPage - 1 : 1,
+							},
+						}}
+						scroll={false}
+						className={CNM(
+							nftsPage <= 1 && 'pointer-events-none opacity-25',
+						)}
+					>
+						<Arrow
+							className={'transform rotate-180'}
+							label={'Previous'}
+						/>
+					</Link>
+
+					<Link
+						href={{
+							pathname: '/',
+							query: {
+								page: nftsPage + 1,
+							},
+						}}
+						scroll={false}
+						className={CNM(
+							nftsPage >= maxPages &&
+								'pointer-events-none opacity-25',
+						)}
+					>
+						<Arrow label={'Next'} />
+					</Link>
+				</div>
+
+				<NftsList nfts={nfts} />
+			</div>
 		</section>
 	)
 }
