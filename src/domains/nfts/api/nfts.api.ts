@@ -29,6 +29,12 @@ export const getNfts = (nftsPage: number, limit: number | null) => {
 	})
 }
 
+export const getNft = async (nftId: string) => {
+	const { nfts } = await getNfts(1, null)
+
+	return nfts.find((nft) => nft.id === nftId)
+}
+
 export const getSellerNfts = async (sellerId: TSellerID) => {
 	const { nfts } = await getNfts(1, null)
 

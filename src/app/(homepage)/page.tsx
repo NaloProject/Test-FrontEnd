@@ -14,7 +14,9 @@ const HomePage: FC<PHomePage> = ({ searchParams }) => {
 		typeof searchParams.page === 'string' ? Number(searchParams.page) : 1
 
 	return (
-		<div className={'max-w-5xl mx-auto space-y-16'}>
+		<div
+			className={`space-y-16 bg-white shadow-box rounded-3xl p-10 lg:p-16`}
+		>
 			<HomeSellers />
 
 			<Suspense fallback={<Loader />}>

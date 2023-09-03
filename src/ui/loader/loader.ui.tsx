@@ -8,6 +8,7 @@ const Loader: FC<PLoader> = ({ size = 'medium' }) => {
 	return (
 		<div
 			className={CNM(
+				'w-full flex justify-center items-center',
 				size === 'medium' && 'm-5',
 				size === 'small' && 'm-0.5',
 			)}

@@ -35,9 +35,7 @@ const NftCard: FC<PNftCard> = ({
 						alt={name}
 						width={400}
 						height={300}
-						className={
-							'object-cover object-center rounded-xl w-full'
-						}
+						className={`object-cover object-center rounded-xl w-full`}
 					/>
 
 					{isHot && timeLeft ? (
@@ -96,11 +94,11 @@ const NftCard: FC<PNftCard> = ({
 						<button
 							type={'button'}
 							className={`ml-auto text-xs text-gray-400
-							font-medium inline-flex items-center gap-1 group hover:text-red-500`}
+							font-medium inline-flex items-center gap-1 group/like hover:text-red-500`}
 						>
 							{like}
 							<BiHeart
-								className={`group-hover:fill-red-500 mt-0.5`}
+								className={`group-hover/like:fill-red-500 mt-0.5`}
 							/>
 						</button>
 					</div>

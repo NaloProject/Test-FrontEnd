@@ -3,29 +3,35 @@ import {
 	AiOutlineCloseCircle,
 	AiOutlineProfile,
 } from 'react-icons/ai'
+import { ImProfile } from 'react-icons/im'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { getSeller, SellerTotalSell, TSellerID } from '@domains/sellers'
 
 import { CNM } from '@helpers/classes'
 
 import { GoHome, TitleWithImage } from '@components'
-import { Paragraph, Title } from '@ui'
+import { Button, Paragraph, Title } from '@ui'
 
 type PSellerProfile = {
 	sellerId: TSellerID
+	embed?: boolean
 }
 
-const SellerProfile: FC<PSellerProfile> = async ({ sellerId }) => {
+const SellerProfile: FC<PSellerProfile> = async ({
+	sellerId,
+	embed = false,
+}) => {
 	const seller = await getSeller(sellerId)
 
-	if (!seller) return null
+	if (!seller) throw new Error('Seller not found')
 
 	const { name, avatar, isVerified, id } = seller
 
 	return (
 		<section>
-			<GoHome className={'mb-7'} />
+			{!embed ? <GoHome className={'mb-7'} /> : null}
 
 			<div className={'mb-8'}>
 				<TitleWithImage
@@ -58,7 +64,7 @@ const SellerProfile: FC<PSellerProfile> = async ({ sellerId }) => {
 
 					<span
 						className={CNM(
-							'flex items-center gap-1 text-blue-600',
+							'flex items-center gap-1 text-sm text-blue-600',
 							isVerified ? 'text-blue-600' : 'text-red-600',
 						)}
 					>
@@ -88,6 +94,20 @@ const SellerProfile: FC<PSellerProfile> = async ({ sellerId }) => {
 					</div>
 				</div>
 			</div>
+
+			{embed ? (
+				<div>
+					<Button
+						as={Link}
+						href={`/seller/${id}`}
+						className={'mt-6'}
+					>
+						<ImProfile />
+
+						<span>See profile</span>
+					</Button>
+				</div>
+			) : null}
 		</section>
 	)
 }
