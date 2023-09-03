@@ -2,7 +2,7 @@ import '@styles/globals.css'
 
 import { Inter, Maven_Pro } from 'next/font/google'
 
-import { DefaultLayout } from './_components/default-layout.component'
+import { DefaultLayout } from './default-layout.component'
 
 import type { Metadata } from 'next'
 

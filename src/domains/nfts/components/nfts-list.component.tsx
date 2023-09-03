@@ -57,9 +57,16 @@ const NftsList: FC<PNftsList> = async ({ nftsPage }) => {
 				xl:grid-cols-4 gap-5 max-w-[20rem] sm:max-w-[30rem] md:max-w-[40rem] lg:max-w-none`}
 			>
 				{nfts.map((nft) => {
+					const { id } = nft
+
 					return (
 						<li key={nft.id}>
-							<NftCard nft={nft} />
+							<Link
+								href={`/nft/${id}`}
+								className={'group'}
+							>
+								<NftCard nft={nft} />
+							</Link>
 						</li>
 					)
 				})}

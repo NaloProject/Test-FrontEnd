@@ -12,8 +12,9 @@ type PCard = HTMLAttributes<HTMLDivElement> & {}
 const Card: TCard<PCard> = ({ children }) => {
 	return (
 		<div
-			className={`h-full border border-gray-200 rounded-xl shadow-sm
-			divide-y divide-gray-200 flex flex-col justify-between`}
+			className={`h-full border border-gray-200 rounded-xl
+			shadow-sm divide-y divide-gray-200 flex flex-col
+			justify-between group-hover:shadow-box transition-all`}
 		>
 			{children}
 		</div>
