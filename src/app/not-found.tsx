@@ -1,14 +1,16 @@
 import { FC } from 'react'
-import Link from 'next/link'
+
+import { GoHome } from '@components'
+import { Paragraph } from '@ui'
 
 const NotFound: FC = () => {
 	return (
-		<div className='text-vercel-pink space-y-4'>
+		<div className='bg-white p-10 rounded-xl text-vercel-pink space-y-4'>
 			<h2 className='text-lg font-bold'>Not Found</h2>
 
-			<p className='text-sm'>Could not find requested resource</p>
+			<Paragraph>Could not find requested resource</Paragraph>
 
-			<Link href='/'>Return Home</Link>
+			<GoHome />
 		</div>
 	)
 }

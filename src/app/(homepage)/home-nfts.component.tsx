@@ -17,7 +17,7 @@ const HomeNfts: FC<PHomeNfts> = async ({ nftsPage }) => {
 
 	return (
 		<section>
-			<div className={'mb-3'}>
+			<div className={'mb-7 sm:mb-1'}>
 				<TitleWithImage
 					label={'Live Auctions'}
 					img={AiOutlineFire}

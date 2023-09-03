@@ -15,11 +15,12 @@ const HomePage: FC<PHomePage> = ({ searchParams }) => {
 
 	return (
 		<div
-			className={`space-y-16 bg-white shadow-box rounded-3xl p-10 lg:p-16`}
+			className={`space-y-16 bg-white shadow-box
+			rounded-3xl p-10 lg:p-16`}
 		>
 			<HomeSellers />
 
-			<Suspense fallback={<Loader />}>
+			<Suspense fallback={<Loader center />}>
 				<HomeNfts nftsPage={nftsPage} />
 			</Suspense>
 		</div>

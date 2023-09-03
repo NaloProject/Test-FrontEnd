@@ -1,5 +1,4 @@
-import { getSeller, TSellerID } from '@domains/sellers'
-import { SellerEmbed } from '@domains/sellers/components/seller-embed.component'
+import { getSeller, SellerEmbed, TSellerID } from '@domains/sellers'
 
 type PNftCardSeller = {
 	sellerId: TSellerID

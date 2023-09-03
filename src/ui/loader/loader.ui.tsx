@@ -2,13 +2,15 @@ import { CNM } from '@helpers/classes'
 
 type PLoader = {
 	size?: 'small' | 'medium' | 'large'
+	center?: boolean
 }
 
-const Loader: FC<PLoader> = ({ size = 'medium' }) => {
+const Loader: FC<PLoader> = ({ size = 'medium', center = false }) => {
 	return (
 		<div
 			className={CNM(
-				'w-full flex justify-center items-center',
+				'w-full',
+				center && 'flex justify-center items-center',
 				size === 'medium' && 'm-5',
 				size === 'small' && 'm-0.5',
 			)}

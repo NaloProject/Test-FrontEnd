@@ -20,7 +20,7 @@ const HomeSellers: FC = () => {
 				</Paragraph>
 			</div>
 
-			<Suspense fallback={<Loader />}>
+			<Suspense fallback={<Loader center />}>
 				<SellersList />
 			</Suspense>
 		</section>

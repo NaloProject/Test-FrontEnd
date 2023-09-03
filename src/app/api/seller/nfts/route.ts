@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 
 import { getSellerNfts } from '@domains/nfts'
 
+// used for client~side calculation of the total
 export async function GET(request: Request) {
 	const { searchParams } = new URL(request.url)
 	const sellerId = searchParams.get('sellerId')

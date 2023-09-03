@@ -1,7 +1,7 @@
 import { Loader } from '@ui'
 
 const Loading: FC = () => {
-	return <Loader />
+	return <Loader center />
 }
 
 export default Loading

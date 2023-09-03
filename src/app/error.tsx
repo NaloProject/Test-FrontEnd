@@ -7,6 +7,7 @@ const Error: FC = () => {
 	return (
 		<div className={'bg-white rounded-xl p-10'}>
 			<Paragraph className={'mb-8'}>An error occured</Paragraph>
+
 			<GoHome />
 		</div>
 	)

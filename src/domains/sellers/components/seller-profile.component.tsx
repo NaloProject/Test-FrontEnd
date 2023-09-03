@@ -44,7 +44,7 @@ const SellerProfile: FC<PSellerProfile> = async ({
 
 			<div
 				className={`inline-flex flex-col sm:flex-row justify-center items-center
-				gap-4 border border-gray-300 p-7 sm:p-7 sm:pr-12 rounded-xl`}
+				gap-4 border border-gray-300 px-12 py-8 sm:p-7 sm:pr-12 rounded-xl`}
 			>
 				<Image
 					src={avatar}
@@ -86,9 +86,11 @@ const SellerProfile: FC<PSellerProfile> = async ({
 					</span>
 
 					<div
-						className={`mt-1 text-xs text-gray-500 flex items-center gap-1`}
+						className={`mt-1 text-xs text-gray-500 flex flex-col gap-1`}
 					>
-						<span>Total sold&nbsp;:</span>
+						<span className={'flex-shrink-0'}>
+							Total sold&nbsp;:
+						</span>
 
 						<SellerTotalSell sellerId={id} />
 					</div>
