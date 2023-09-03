@@ -21,11 +21,9 @@ describe('Sellers Embed Component', () => {
 			<SellerEmbed seller={sellerFallbacksMock} />,
 		)
 
-		const link = getByRole(container, 'link')
 		const name = getByText(container, 'John Doe')
 		const img = getByRole(container, 'img')
 
-		expect(link).toHaveAttribute('href', '/seller/4242')
 		expect(name).toBeInTheDocument()
 		expect(img).toBeInTheDocument()
 		expect(img).toHaveAttribute('alt', 'Default Avatar')

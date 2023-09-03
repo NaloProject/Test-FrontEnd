@@ -10,7 +10,7 @@
             "timeLeft": "22 hours",
             "isHot": true,
             "sellerId": 4321,
-            "image": ""
+            "image": "/medias/nfts/1.jpg"
         },
         {
             "id": "2",
@@ -22,7 +22,7 @@
             "timeLeft": "16 hours",
             "isHot": false,
             "sellerId": 9983,
-            "image": ""
+            "image": "/medias/nfts/2.jpg"
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "timeLeft": "22 hours",
             "isHot": true,
             "sellerId": 2343,
-            "image": ""
+            "image": "/medias/nfts/3.jpg"
         },
         {
             "id": "4",
@@ -46,7 +46,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 2323,
-            "image": ""
+            "image": "/medias/nfts/4.jpg"
         },
         {
             "id": "5",
@@ -58,7 +58,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 9983,
-            "image": ""
+            "image": "/medias/nfts/5.jpg"
         },
         {
             "id": "6",
@@ -70,7 +70,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 2323,
-            "image": ""
+            "image": "/medias/nfts/6.jpg"
         },
         {
             "id": "7",
@@ -82,7 +82,7 @@
             "timeLeft": "1 days",
             "isHot": true,
             "sellerId": 4982,
-            "image": ""
+            "image": "/medias/nfts/7.jpg"
         },
         {
             "id": "8",
@@ -94,14 +94,14 @@
             "timeLeft": "1 days",
             "isHot": true,
             "sellerId": 4984,
-            "image": ""
+            "image": "/medias/nfts/8.jpg"
         }
     ],
     "bestSellers": [
         {
             "name": "Richard Noga",
             "id": 2323,
-            "isVerified": false,
+            "isVerified": true,
             "avatar": "/medias/avatars/1.jpg"
         },
         {

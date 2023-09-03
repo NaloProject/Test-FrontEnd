@@ -1,3 +1,5 @@
+import { TSellerID } from '@domains/sellers'
+
 export interface INFT {
 	id: string
 	name: string
@@ -7,6 +9,6 @@ export interface INFT {
 	forSale: number
 	timeLeft: string
 	isHot: boolean
-	sellerId: number
+	sellerId: TSellerID
 	image: string
 }

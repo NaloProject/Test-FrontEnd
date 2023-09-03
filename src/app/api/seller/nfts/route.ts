@@ -17,8 +17,8 @@ export async function GET(request: Request) {
 		)
 	}
 
-	const nftsList = await getNfts()
-	const sellerNfts = nftsList.filter((nft) => nft.sellerId === +sellerId)
+	const { nfts, maxPages } = await getNfts(1, null)
+	const sellerNfts = nfts.filter((nft) => nft.sellerId === +sellerId)
 
 	return NextResponse.json(sellerNfts)
 }

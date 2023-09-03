@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { getSellers } from '../api'
 import { SellerEmbed } from './seller-embed.component'
 
@@ -10,6 +12,8 @@ const SellersList: FC = async () => {
 			justify-center lg:grid-cols-4 gap-4 [counter-reset:sellers-list]`}
 		>
 			{sellersList.map((seller) => {
+				const { id } = seller
+
 				return (
 					<li
 						key={seller.id}
@@ -17,7 +21,16 @@ const SellersList: FC = async () => {
 						items-center gap-2 before:text-gray-400 before:font-medium
 						before:[content:counters(sellers-list,'.',decimal-leading-zero)]`}
 					>
-						<SellerEmbed seller={seller} />
+						<Link
+							href={`/seller/${id}`}
+							className={`ring-2 ring-nalo-pink/0 hover:ring-nalo-pink/100
+			 				rounded-full p-1.5 transition-all duration-300`}
+						>
+							<SellerEmbed
+								seller={seller}
+								showTotalSell
+							/>
+						</Link>
 					</li>
 				)
 			})}

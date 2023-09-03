@@ -34,7 +34,7 @@ const Layout: TLayout<PLayout> = ({
 	return (
 		<body
 			className={CNM(
-				`grid min-h-screen w-screen gap-8 px-6 md:px-12
+				`grid min-h-screen w-screen gap-12 px-6 md:px-12
 				overflow-x-hidden overflow-y-auto`,
 				VARIANT_MAPS[variant],
 				className ?? '',

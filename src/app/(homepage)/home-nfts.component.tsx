@@ -1,17 +1,33 @@
 import { Suspense } from 'react'
+import { AiOutlineFire } from 'react-icons/ai'
 
-import { SellersList } from '@domains/sellers'
+import { NftsList } from '@domains/nfts'
 
-import { Loader } from '@ui'
+import { TitleWithImage } from '@components'
+import { Loader, Paragraph } from '@ui'
 
-const HomeNfts: FC = () => {
+type PHomeNfts = {
+	nftsPage: number
+}
+
+const HomeNfts: FC<PHomeNfts> = ({ nftsPage }) => {
 	return (
-		<div>
-			home nfts
+		<section>
+			<div className={'mb-3'}>
+				<TitleWithImage
+					label={'Live Auctions'}
+					img={AiOutlineFire}
+				/>
+
+				<Paragraph className={'mt-2'}>
+					Enjoy! The latest hot auctions
+				</Paragraph>
+			</div>
+
 			<Suspense fallback={<Loader />}>
-				<SellersList />
+				<NftsList nftsPage={nftsPage} />
 			</Suspense>
-		</div>
+		</section>
 	)
 }
 

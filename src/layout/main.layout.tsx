@@ -9,7 +9,7 @@ const MainLayout: FC<PMainLayout> = ({ children, className, ...rest }) => {
 		<main
 			className={CNM(
 				`bg-white self-center justify-self-center
-				w-full max-w-6xl p-10 lg:p-16 shadow-box rounded-3xl`,
+				w-full max-w-7xl p-10 lg:p-16 shadow-box rounded-3xl`,
 				className ?? '',
 			)}
 			{...rest}
