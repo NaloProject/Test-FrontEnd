@@ -1,0 +1,34 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model BestSeller {
+  id Int @id @map("_id")
+  name String
+  avatar String?
+  isVerified Boolean
+  eth Float?
+  nfts Nft[]
+}
+
+model Nft {
+  id Int @id @map("_id")
+  name String
+  totalMinted Int
+  price String
+  like Int
+  forSale Int
+  timeLeft String
+  isHot Boolean @default(false)
+  image String
+  seller BestSeller @relation(fields: [sellerId], references: [id])
+  sellerId Int
+}

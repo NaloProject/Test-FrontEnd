@@ -1,0 +1,150 @@
+{
+  "nfts": [
+    {
+      "id": 1,
+      "name": "Origins Sculpture",
+      "totalMinted": 8,
+      "price": "2.78",
+      "like": 195,
+      "forSale": 3,
+      "timeLeft": "22 hours",
+      "isHot": true,
+      "sellerId": 3,
+      "image": "https://cdn.geekwire.com/wp-content/uploads/2022/07/melaniabilustracion-No-Planet-B-square.jpg"
+    },
+    {
+      "id": 2,
+      "name": "The Dark Corner Sculpture",
+      "totalMinted": 5,
+      "price": "2.93",
+      "like": 240,
+      "forSale": 4,
+      "timeLeft": "16 hours",
+      "isHot": false,
+      "sellerId": 5,
+      "image": "https://visionarymarketing.com/wp-content/uploads/2022/01/new-vente-art-nft-ester-barend-ravishing-big.jpg.webp"
+    },
+    {
+      "id": 3,
+      "name": "Secret Door",
+      "totalMinted": 3,
+      "price": "4.10",
+      "like": 89,
+      "forSale": 4,
+      "timeLeft": "22 hours",
+      "isHot": true,
+      "sellerId": 2,
+      "image": "https://boardroom.tv/wp-content/uploads/2023/02/PUMA-NFT-75-Anniversary.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ceres Searching",
+      "totalMinted": 2,
+      "price": "10.89",
+      "like": 400,
+      "forSale": 1,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 1,
+      "image": "https://www.ie.edu/insights/wp-content/uploads/2022/01/San-Jose-Feature.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Modird Goal",
+      "totalMinted": 2,
+      "price": "1.89",
+      "like": 234,
+      "forSale": 4,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 9983,
+      "image": "https://static.latribune.fr/1894050/bored-ape.png"
+    },
+    {
+      "id": 6,
+      "name": "Ceres Searching",
+      "totalMinted": 2,
+      "price": "10.89",
+      "like": 400,
+      "forSale": 1,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 1,
+      "image": "https://www.datocms-assets.com/29675/1661346471-wow.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Moroze",
+      "totalMinted": 10,
+      "price": "10.89",
+      "like": 100,
+      "forSale": 1,
+      "timeLeft": "1 days",
+      "isHot": true,
+      "sellerId": 7,
+      "image": "https://boardroom.tv/wp-content/uploads/2023/02/PUMA-NFT-75-Anniversary.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Pickchu",
+      "totalMinted": 5,
+      "price": "10.89",
+      "like": 9,
+      "forSale": 43,
+      "timeLeft": "1 days",
+      "isHot": true,
+      "sellerId": 1,
+      "image": "https://nftnewspro.com/wp-content/uploads/2023/02/Most-popular-NFT-artists-to-follow-in-2023-1.jpg"
+    }
+  ],
+  "bestSellers": [
+    {
+      "name": "Richard Noga",
+      "id": 1,
+      "isVerified": false,
+      "avatar": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "eth": 65
+    },
+    {
+      "name": "Pingu",
+      "id": 2,
+      "isVerified": false,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "eth": 60
+    },
+    {
+      "name": "DoggieBoy",
+      "id": 3,
+      "isVerified": false,
+      "avatar": "https://images.unsplash.com/photo-1618641986557-1ecd230959aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      "eth": 46
+    },
+    {
+      "name": "Julian Co",
+      "id": 4,
+      "isVerified": false,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
+      "eth": 46
+    },
+    {
+      "name": "Camillo Ferrari",
+      "id": 5,
+      "isVerified": false,
+      "avatar": "https://media.istockphoto.com/id/1368424494/photo/studio-portrait-of-a-cheerful-woman.webp?b=1&s=170667a&w=0&k=20&c=VEE1756TeCzYH2uPsFZ_P8H3Di2j_jw8aOT6zd7V8JY=",
+      "eth": 44
+    },
+    {
+      "name": "Ausonia_loi",
+      "id": 6,
+      "isVerified": false,
+      "avatar": ""
+    },
+    {
+      "name": "Tito",
+      "id": 7,
+      "isVerified": false,
+      "avatar": "https://media.istockphoto.com/id/1421387968/photo/smiling-man-profile-mugshot-on-gray-background.webp?b=1&s=170667a&w=0&k=20&c=hu9svYSL3hkELjuNkOBbsYy3eji3uV5RWWUH5ZQyWn8=",
+      "eth": 39
+    }
+  ]
+}
