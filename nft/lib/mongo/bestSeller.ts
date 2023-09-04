@@ -2,9 +2,7 @@ import prismadb from '../../lib/prismadb';
 
 export const getBestSeller = async () => {
   try {
-    const result = await prismadb.bestSeller.findMany();
-
-    return { bestSeller: result };
+    return await prismadb.bestSeller.findMany();
   } catch (error) {
     console.log(error);
   }

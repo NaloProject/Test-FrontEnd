@@ -1,3 +1,9 @@
-export default async function Home() {
-  return <div>NFT</div>;
+import NftBestSeller from '@/components/NftBestSeller';
+
+export default function Home() {
+  return (
+    <>
+      <NftBestSeller />
+    </>
+  );
 }
