@@ -34,7 +34,7 @@ export default function NftSeller({
 }: NftSellerProps) {
   return (
     <>
-      <Link href={`/seller/${id}`}>
+      <Link href={`/seller/${id}`} prefetch>
         <div className={twMerge(style.wrapper, className)}>
           {rank && <div className={style.rank}>{rank}</div>}
 

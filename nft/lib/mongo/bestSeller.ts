@@ -7,3 +7,20 @@ export const getBestSeller = async () => {
     console.log(error);
   }
 };
+
+export const getSeller = async (id: number) => {
+  try {
+    const seller = await prismadb.bestSeller.findFirst({
+      where: {
+        id,
+      },
+      include: {
+        nfts: true,
+      },
+    });
+
+    return seller;
+  } catch (error) {
+    console.log(error);
+  }
+};
