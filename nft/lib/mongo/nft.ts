@@ -26,3 +26,20 @@ export const getNfts = async ({
     console.log(error);
   }
 };
+
+export const getNft = async (id: number) => {
+  try {
+    const nft = await prismadb.nft.findFirst({
+      where: {
+        id,
+      },
+      include: {
+        seller: true,
+      },
+    });
+
+    return nft;
+  } catch (error) {
+    console.log(error);
+  }
+};
