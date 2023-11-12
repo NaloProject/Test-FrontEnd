@@ -10,7 +10,7 @@
             "timeLeft": "22 hours",
             "isHot": true,
             "sellerId": 4321,
-            "image": ""
+            "image": "https://nftapi.chaingpt.org/253a84a9-29c1-4827-a40d-07a7ec41267b.png"
         },
         {
             "id": "2",
@@ -22,7 +22,7 @@
             "timeLeft": "16 hours",
             "isHot": false,
             "sellerId": 9983,
-            "image": ""
+            "image": "https://nftapi.chaingpt.org/beea459f-68bd-41c3-b247-6e98d4b304db.png"
         },
         {
             "id": "3",
@@ -34,7 +34,7 @@
             "timeLeft": "22 hours",
             "isHot": true,
             "sellerId": 2343,
-            "image": ""
+            "image": "https://nftapi.chaingpt.org/6a4fba7c-58c3-4861-a94a-b62a469af5f1.png"
         },
         {
             "id": "4",
@@ -46,7 +46,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 2323,
-            "image": ""
+            "image": "https://nftapi.chaingpt.org/eff3f361-6dc9-4826-8400-3c631af89c44.png"
         },
         {
             "id": "5",
@@ -58,7 +58,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 9983,
-            "image": ""
+            "image": "https://nftapi.chaingpt.org/6a4fba7c-58c3-4861-a94a-b62a469af5f1.png"
         },
         {
             "id": "6",
@@ -70,7 +70,7 @@
             "timeLeft": "2 days",
             "isHot": true,
             "sellerId": 2323,
-            "image": ""
+            "image": "https://nftapi.chaingpt.org/c70f26db-a944-435f-8bf3-ecbb7d80bcf3.png"
         },
         {
             "id": "7",
@@ -82,7 +82,7 @@
             "timeLeft": "1 days",
             "isHot": true,
             "sellerId": 4982,
-            "image": ""
+            "image": "https://nftapi.chaingpt.org/57181baa-7da7-420c-ae78-e03549430498.png"
         },
         {
             "id": "8",
@@ -94,7 +94,7 @@
             "timeLeft": "1 days",
             "isHot": true,
             "sellerId": 4984,
-            "image": ""
+            "image": "https://nftapi.chaingpt.org/b3665fdb-cfc6-451b-b3d1-53424f097b83.png"
         }
     ],
     "bestSellers": [
@@ -102,43 +102,43 @@
             "name": "Richard Noga",
             "id": 2323,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "https://i.pravatar.cc/150?img=1"
         },
         {
             "name": "Pingu",
             "id": 2343,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "https://i.pravatar.cc/150?img=2"
         },
         {
             "name": "DoggieBoy",
             "id": 4321,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "https://i.pravatar.cc/150?img=3"
         },
         {
             "name": "Julian Co",
             "id": 4984,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "https://i.pravatar.cc/150?img=4"
         },
         {
             "name": "Camillo Ferrari",
             "id": 9983,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "https://i.pravatar.cc/150?img=5"
         },
         {
             "name": "Ausonia_loi",
             "id": 3421,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "https://i.pravatar.cc/150?img=6"
         },
         {
             "name": "Tito",
             "id": 4982,
             "isVerified": false,
-            "avatar": ""
+            "avatar": "https://i.pravatar.cc/150?img=7"
         }
     ]
 }
